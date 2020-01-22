@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66f78f67-c9d4-4d7b-965e-d2067b4878c7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VZqBH9tRJzu7Q7XQPRR9l18j9N" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="findjar.last.used.dir" value="C:/Program Files/Java/jre-10.0.2/lib" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-10.0.2/lib/log4j-1.2.17.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.by.javatr" />
+      <recent name="main.by.javatr.view" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.by.javatr.view.Runner" />
+      <module name="FinalProjectLukiyanets_V" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.by.javatr.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangeBalanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectLukiyanets_V" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.by.javatr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.by.javatr" />
+      <option name="MAIN_CLASS_NAME" value="test.by.javatr.ChangeBalanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.by.javatr in FinalProjectLukiyanets_V" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="FinalProjectLukiyanets_V" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.by.javatr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.by.javatr" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="JUnit.ChangeBalanceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66f78f67-c9d4-4d7b-965e-d2067b4878c7" name="Default Changelist" comment="" />
+      <created>1577470827418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577470827418</updated>
+      <workItem from="1577470837196" duration="15473000" />
+      <workItem from="1578012116615" duration="10315000" />
+      <workItem from="1578129436448" duration="52256000" />
+      <workItem from="1578353457774" duration="50430000" />
+      <workItem from="1578998154507" duration="34682000" />
+      <workItem from="1579099179865" duration="22374000" />
+      <workItem from="1579211069423" duration="6873000" />
+      <workItem from="1579353141625" duration="53228000" />
+      <workItem from="1579645305183" duration="5448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="177" key="#Project_Structure" timestamp="1577470846825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1577470846825" />
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579562144268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579562144268" />
+    <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579471845537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579471845537" />
+    <state x="754" y="404" width="465" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579392355443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="404" width="465" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1579392355443" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579396034854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579396034854" />
+    <state x="557" y="150" key="#test.by.javatr_in_FinalProjectLukiyanets_V" timestamp="1579471743596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="150" key="#test.by.javatr_in_FinalProjectLukiyanets_V/0.0.1920.1040@0.0.1920.1040" timestamp="1579471743596" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1579652973430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579652973430" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579653438111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579653438111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579653438111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579653438111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579653438112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438112" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579653438111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579653438111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579653438111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state x="466" y="91" key="SettingsEditor" timestamp="1579652976449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="466" y="91" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579652976449" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1579455122683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1579455122683" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579645333850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579645333850" />
+    <state x="708" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579472030740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579472030740" />
+    <state x="690" y="285" key="extract.method.dialog" timestamp="1579397761924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="285" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579397761924" />
+    <state x="342" y="139" key="new project wizard" timestamp="1579646058766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1579646058766" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579518355246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579518355246" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/by/javatr/view/Runner.java</url>
+          <line>11</line>
+          <properties class="main.by.javatr.view.Runner" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
