@@ -1,23 +1,30 @@
 package main.by.javatr.service.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.dao.DAOException.DAOException;
 import main.by.javatr.dao.DAOFactory.DAOFactory;
 import main.by.javatr.dao.impl.FileAccountDAO;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
+import org.apache.log4j.Logger;
 
 
 public class AccountServiceImpl implements AccountService {
 
+    private static Logger log = Logger.getLogger(AccountServiceImpl.class.getName());
 
     private static FileAccountDAO getFileAccountDAO(){
+
+        log.info("Service layer getFileAccountDAO");
         DAOFactory fileDAOFactory = DAOFactory.getDAOFactory(DAOFactory.FILE);
         return (FileAccountDAO) fileDAOFactory.getAccountDAO();
     }
 
     @Override
     public boolean checkRegistration(Account account) throws ServiceException {
+
+        log.info("Service layer checkRegistration");
 
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
 
@@ -32,6 +39,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public boolean registration(Account account) throws ServiceException {
+        log.info("Service layer registration");
 
         try {
             boolean check = checkRegistration(account);
@@ -51,6 +59,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public Account logIn(Account account) throws ServiceException {
+        log.info("Service layer logIn");
 
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
 
@@ -65,6 +74,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public Account changeBalance(Account account) throws ServiceException {
+        log.info("Service layer changeBalance");
 
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
         try {
@@ -78,6 +88,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public Account changeCategory(Account account) throws ServiceException {
+        log.info("Service layer changeCategory");
 
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
         try {
@@ -94,6 +105,8 @@ public class AccountServiceImpl implements AccountService {
     }
 
     public String isBanned(Account account) throws ServiceException {
+        log.info("Service layer isBanned");
+
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
 
         try {
@@ -111,6 +124,8 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public Account update(Account account) throws ServiceException {
+        log.info("Service layer update");
+
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
 
         try {
@@ -123,6 +138,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public boolean delete(Account account) throws ServiceException {
+        log.info("Service layer delete");
 
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
         try {

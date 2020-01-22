@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66f78f67-c9d4-4d7b-965e-d2067b4878c7" name="Default Changelist" comment="" />
+    <list default="true" id="66f78f67-c9d4-4d7b-965e-d2067b4878c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DB.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeEntertainment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeEntertainment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeOther.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Wrong_request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Wrong_request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/BanAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/BanAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/CommandProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/CommandProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/DAOFactory/FileDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/dao/DAOFactory/FileDAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/impl/FileAccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/dao/impl/FileAccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/view/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/view/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VZqBH9tRJzu7Q7XQPRR9l18j9N" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -28,6 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -35,7 +67,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="findjar.last.used.dir" value="C:/Program Files/Java/jre-10.0.2/lib" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-10.0.2/lib/log4j-1.2.17.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -137,6 +169,7 @@
       <workItem from="1579211069423" duration="6873000" />
       <workItem from="1579353141625" duration="53228000" />
       <workItem from="1579645305183" duration="5448000" />
+      <workItem from="1579697034228" duration="7909000" />
     </task>
     <servers />
   </component>
@@ -172,38 +205,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579652973430" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579653438111">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579708495330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579653438111">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579708495330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579653438111">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579708495330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579653438111">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579708495330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579653438112">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579708495331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438112" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579653438111">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495331" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579708495330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579653438111">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579708495330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579653438111">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579708495331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579653438111" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495331" />
     <state x="466" y="91" key="SettingsEditor" timestamp="1579652976449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,6 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579645333850" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579708408499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579708408499" />
     <state x="708" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579472030740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,11 +275,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/by/javatr/view/Runner.java</url>
-          <line>11</line>
+          <line>14</line>
           <properties class="main.by.javatr.view.Runner" method="main">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

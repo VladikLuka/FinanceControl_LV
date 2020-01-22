@@ -1,0 +1,171 @@
+2020-01-22 15:48:26 INFO  Controller:47 - DAO layer update
+2020-01-22 16:58:18 INFO  Controller:133 - DAO layer find by login
+2020-01-22 16:58:18 INFO  Controller:27 - DAO layer add
+2020-01-22 16:58:23 INFO  Controller:47 - DAO layer update
+2020-01-22 17:15:40 INFO  Controller:124 - DAO layer find by login
+2020-01-22 17:16:41 INFO  Controller:124 - DAO layer find by login
+2020-01-22 17:17:25 INFO  Controller:124 - DAO layer find by login
+2020-01-22 17:17:25 ERROR Controller:33 - Exception
+main.by.javatr.service.ServiceException.ServiceException: DAOException
+	at main.by.javatr.service.impl.AccountServiceImpl.checkRegistration(AccountServiceImpl.java:28)
+	at main.by.javatr.controller.command.impl.LogIn.execute(LogIn.java:24)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:31)
+	at main.by.javatr.view.Runner.main(Runner.java:29)
+Caused by: main.by.javatr.dao.DAOException.DAOException: File not found exception
+	at main.by.javatr.dao.impl.FileAccountDAO.findByLogin(FileAccountDAO.java:138)
+	at main.by.javatr.service.impl.AccountServiceImpl.checkRegistration(AccountServiceImpl.java:26)
+	... 3 more
+Caused by: java.io.FileNotFoundException: 123DB.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileReader.<init>(FileReader.java:72)
+	at main.by.javatr.dao.impl.FileAccountDAO.findByLogin(FileAccountDAO.java:127)
+	... 4 more
+2020-01-22 17:44:19 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 17:44:19 INFO  Controller:27 - Service layer checkRegistration
+2020-01-22 17:44:19 INFO  Controller:19 - Service layer getFileAccountDAO
+2020-01-22 17:44:19 INFO  Controller:99 - DAO layer find by login
+2020-01-22 17:44:19 ERROR Controller:34 - Exception
+main.by.javatr.service.ServiceException.ServiceException: DAOException
+	at main.by.javatr.service.impl.AccountServiceImpl.checkRegistration(AccountServiceImpl.java:35)
+	at main.by.javatr.controller.command.impl.LogIn.execute(LogIn.java:24)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:29)
+Caused by: main.by.javatr.dao.DAOException.DAOException: File not found exception
+	at main.by.javatr.dao.impl.FileAccountDAO.findByLogin(FileAccountDAO.java:112)
+	at main.by.javatr.service.impl.AccountServiceImpl.checkRegistration(AccountServiceImpl.java:33)
+	... 3 more
+Caused by: java.io.FileNotFoundException: 123DB.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileReader.<init>(FileReader.java:72)
+	at main.by.javatr.dao.impl.FileAccountDAO.findByLogin(FileAccountDAO.java:101)
+	... 4 more
+2020-01-22 17:44:33 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 17:44:33 INFO  Controller:77 - Service layer changeBalance
+2020-01-22 17:44:33 INFO  Controller:19 - Service layer getFileAccountDAO
+2020-01-22 17:44:33 INFO  Controller:36 - DAO layer update
+2020-01-22 17:44:33 ERROR Controller:34 - Exception
+main.by.javatr.service.ServiceException.ServiceException: DAOException
+	at main.by.javatr.service.impl.AccountServiceImpl.changeBalance(AccountServiceImpl.java:83)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:31)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:56)
+Caused by: main.by.javatr.dao.DAOException.DAOException: File not found
+	at main.by.javatr.dao.impl.FileAccountDAO.update(FileAccountDAO.java:56)
+	at main.by.javatr.service.impl.AccountServiceImpl.changeBalance(AccountServiceImpl.java:81)
+	... 3 more
+2020-01-22 17:52:01 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 17:52:01 INFO  Controller:43 - Controller layer getCommand
+2020-01-22 17:52:01 INFO  Controller:17 - Controller layer execute
+2020-01-22 17:52:01 INFO  Controller:27 - Service layer checkRegistration
+2020-01-22 17:52:01 INFO  Controller:19 - Service layer getFileAccountDAO
+2020-01-22 17:52:01 INFO  Controller:99 - DAO layer find by login
+2020-01-22 17:52:01 INFO  Controller:62 - Service layer logIn
+2020-01-22 17:52:01 INFO  Controller:19 - Service layer getFileAccountDAO
+2020-01-22 17:52:01 INFO  Controller:66 - DAO layer find
+2020-01-22 17:59:36 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 17:59:36 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 17:59:36 INFO  LogIn:17 - Controller layer execute
+2020-01-22 17:59:36 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 17:59:36 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 17:59:36 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 17:59:36 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 17:59:36 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 17:59:36 INFO  FileAccountDAO:65 - DAO layer find2020-01-22 18:04:29 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:04:29 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:04:29 INFO  ChangeBalance:18 - Controller layer execute
+2020-01-22 18:04:29 INFO  AccountServiceImpl:77 - Service layer changeBalance
+2020-01-22 18:04:29 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:04:29 INFO  FileAccountDAO:35 - DAO layer update
+2020-01-22 18:32:18 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:32:18 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:32:18 INFO  LogIn:17 - Controller layer execute
+2020-01-22 18:32:18 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 18:32:18 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:32:18 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 18:32:18 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 18:32:18 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:32:18 INFO  FileAccountDAO:65 - DAO layer find
+2020-01-22 18:32:32 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:32:32 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:32:32 INFO  LogIn:17 - Controller layer execute
+2020-01-22 18:32:32 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 18:32:32 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:32:32 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 18:32:32 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 18:32:32 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:32:32 INFO  FileAccountDAO:65 - DAO layer find
+2020-01-22 18:40:19 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:40:19 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:40:19 INFO  LogIn:17 - Controller layer execute
+2020-01-22 18:40:19 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 18:40:19 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:40:19 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 18:40:19 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 18:40:19 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:40:19 INFO  FileAccountDAO:65 - DAO layer find
+2020-01-22 18:43:55 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:44:02 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:44:18 INFO  LogIn:17 - Controller layer execute
+2020-01-22 18:44:18 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 18:44:18 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:44:18 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 18:44:18 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 18:44:18 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:44:18 INFO  FileAccountDAO:65 - DAO layer find
+2020-01-22 18:44:46 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:44:50 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:44:52 INFO  LogIn:17 - Controller layer execute
+2020-01-22 18:44:58 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 18:44:58 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:44:58 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 18:45:05 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 18:45:09 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:45:36 INFO  FileAccountDAO:65 - DAO layer find
+2020-01-22 18:48:51 INFO  Runner:16 - View layer main
+2020-01-22 18:48:54 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:48:54 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:48:54 INFO  LogIn:17 - Controller layer execute
+2020-01-22 18:48:54 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 18:48:54 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:48:54 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-22 18:48:54 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 18:48:54 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 18:48:54 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:48:54 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-22 18:48:54 INFO  FileAccountDAO:65 - DAO layer find
+2020-01-22 18:48:59 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:48:59 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:48:59 INFO  ChangeCurrency:18 - Controller layer execute
+2020-01-22 18:49:09 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:49:09 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:49:09 INFO  ChangeCurrency:18 - Controller layer execute
+2020-01-22 18:49:09 INFO  AccountServiceImpl:127 - Service layer update
+2020-01-22 18:49:09 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:49:09 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-22 18:49:09 INFO  FileAccountDAO:35 - DAO layer update
+2020-01-22 18:49:15 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:49:15 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:49:15 INFO  LogOut:14 - Controller layer execute
+2020-01-22 18:49:19 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:49:19 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:49:19 INFO  LogIn:17 - Controller layer execute
+2020-01-22 18:49:19 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-22 18:49:19 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:49:19 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-22 18:49:19 INFO  FileAccountDAO:98 - DAO layer find by login
+2020-01-22 18:49:19 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-22 18:49:19 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:49:19 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-22 18:49:19 INFO  FileAccountDAO:65 - DAO layer find
+2020-01-22 18:49:27 INFO  Controller:19 - Controller layer executeTask
+2020-01-22 18:49:27 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-22 18:49:27 INFO  ChangeCurrency:18 - Controller layer execute
+2020-01-22 18:49:27 INFO  AccountServiceImpl:127 - Service layer update
+2020-01-22 18:49:27 INFO  AccountServiceImpl:19 - Service layer getFileAccountDAO
+2020-01-22 18:49:27 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-22 18:49:27 INFO  FileAccountDAO:35 - DAO layer update
+2020-01-22 18:50:13 INFO  Runner:16 - View layer main

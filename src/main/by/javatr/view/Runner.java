@@ -6,11 +6,14 @@ import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.controller.ControllerInterface;
 
 import java.util.Scanner;
+import org.apache.log4j.Logger;
 
 public class Runner {
 
-    public static void main(String[] args) {
+    private static Logger log = Logger.getLogger(Runner.class.getName());
 
+    public static void main(String[] args) {
+        log.info("View layer main");
         Scanner scanner;
         String request;
         ControllerInterface contr = new Controller();

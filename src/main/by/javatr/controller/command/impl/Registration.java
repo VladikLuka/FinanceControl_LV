@@ -8,14 +8,17 @@ import main.by.javatr.dao.DAOException.DAOException;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 
 public class Registration implements Command {
 
+    private static Logger log = Logger.getLogger(Registration.class.getName());
 
     @Override
     public String execute(String request) throws ControllerException{
+        log.info("Controller layer execute");
 
         String[] arrRequest = request.split(" ");
 

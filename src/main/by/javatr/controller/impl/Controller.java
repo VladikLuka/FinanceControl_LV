@@ -16,6 +16,7 @@ public final class Controller implements ControllerInterface {
     private static Logger log = Logger.getLogger(Controller.class.getName());
 
     public String executeTask(String request) throws ControllerException {
+        log.info("Controller layer executeTask");
 
         String[] commandName;
         Command executeCommand;

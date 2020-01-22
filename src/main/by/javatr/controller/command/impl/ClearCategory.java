@@ -2,10 +2,16 @@ package main.by.javatr.controller.command.impl;
 
 import main.by.javatr.bean.Account;
 import main.by.javatr.controller.command.Command;
+import main.by.javatr.controller.impl.Controller;
+import org.apache.log4j.Logger;
 
 public class ClearCategory implements Command {
+
+    private static Logger log = Logger.getLogger(ClearCategory.class.getName());
+
     @Override
     public String execute(String request){
+        log.info("Controller layer execute");
 
         request = request.toUpperCase();
 

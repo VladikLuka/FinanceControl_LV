@@ -6,12 +6,15 @@ import main.by.javatr.controller.command.impl.*;
 import main.by.javatr.controller.command.impl.adminCommand.BanAccount;
 import main.by.javatr.controller.command.impl.adminCommand.DeleteAccount;
 import main.by.javatr.controller.command.impl.adminCommand.GetAdmin;
+import org.apache.log4j.Logger;
 
 import javax.swing.text.ChangedCharSetException;
 import java.util.HashMap;
 import java.util.Map;
 
 public final class CommandProvider {
+
+    private static Logger log = Logger.getLogger(CommandProvider.class.getName());
 
     private final Map<CommandName, Command> repository = new HashMap<>();
 
@@ -36,6 +39,9 @@ public final class CommandProvider {
     }
 
     public Command getCommand(String name){
+
+        log.info("Controller layer getCommand");
+
         CommandName commandName = null;
         Command command = null;
 

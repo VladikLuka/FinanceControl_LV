@@ -3,11 +3,17 @@ package main.by.javatr.controller.command.impl;
 import main.by.javatr.bean.Account;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
+import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.service.ServiceException.ServiceException;
+import org.apache.log4j.Logger;
 
 public class ClearAll implements Command {
+
+    private static Logger log = Logger.getLogger(ClearAll.class.getName());
+
     @Override
     public String execute(String request) throws ControllerException, ServiceException {
+        log.info("Controller layer execute");
 
         String[] str = request.split(" ");
 

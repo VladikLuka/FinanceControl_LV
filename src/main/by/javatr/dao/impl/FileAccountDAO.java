@@ -3,45 +3,38 @@ package main.by.javatr.dao.impl;
 import main.by.javatr.bean.Account;
 import main.by.javatr.dao.AccountDAO;
 import main.by.javatr.dao.DAOException.DAOException;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 
 public class FileAccountDAO implements AccountDAO {
 
-    File file = new File("123DB.txt");
+    File file = new File("DB.txt");
     File file2 = new File("DB2.txt");
 
     String[] str;
     String line;
 
-    BufferedReader reader;
-    BufferedWriter writer;
+    private static Logger log = Logger.getLogger(FileAccountDAO.class.getName());
 
     @Override
     public boolean add(Account account) throws DAOException {
 
-        try {
-            writer = new BufferedWriter(new FileWriter(file,true));
+        log.info("DAO layer add");
+        try(BufferedWriter writer = new BufferedWriter(new FileWriter(file,true));) {
             writer.write(account.getLogin() + " " + account.getPassword()+ " " + account.getBalance() + " " + account.getExpenses() + " " + account.getTransport() + " " + account.getFood() + " " + account.getEntertainment() + " " + account.getOther() + " " + account.isAdmin() + " " + account.isBan() + " "+ account.getCurrentCur() + "\n");
         } catch (IOException e) {
             throw new DAOException("IOException", e);
-        }finally {
-            try {
-                writer.close();
-            } catch (IOException e) {
-                throw new DAOException("IOException", e);
-            }
         }
-
         return true;
     }
 
     @Override
     public Account update(Account account) throws DAOException {
 
-        try {
-            reader = new BufferedReader(new FileReader(file));
-            writer = new BufferedWriter(new FileWriter(file2));
+        log.info("DAO layer update");
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(file)); BufferedWriter writer = new BufferedWriter(new FileWriter(file2))){
 
             while ((line = reader.readLine()) != null) {
 
@@ -55,36 +48,23 @@ public class FileAccountDAO implements AccountDAO {
                 writer.newLine();
             }
 
-            reader.close();
-            writer.close();
-
+        }catch (FileNotFoundException e) {
+            throw new DAOException("File not found");
+        } catch (IOException e) {
+            throw new DAOException("IOException", e);
+        }finally{
             file.delete();
             file2.renameTo(file);
-
-
-        }catch (FileNotFoundException e) {
-            throw new DAOException("message");
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                reader.close();
-                writer.close();
-            } catch (IOException e) {
-                throw new DAOException("message");
-            }
         }
-
-
         return account;
     }
 
     @Override
     public Account find(Account account) throws DAOException {
 
-        try {
+        log.info("DAO layer find");
 
-            reader = new BufferedReader(new FileReader(file));
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))){
 
             while ((line = reader.readLine()) != null) {
 
@@ -109,21 +89,15 @@ public class FileAccountDAO implements AccountDAO {
             throw new DAOException("File not found exception", e);
         } catch (IOException e) {
             throw new DAOException("I/O exception", e);
-        } finally {
-            try {
-                reader.close();
-            } catch (IOException e) {
-                throw new DAOException("I/O exception", e);
-            }
         }
     }
 
     @Override
     public boolean findByLogin(String login) throws DAOException {
 
+        log.info("DAO layer find by login");
 
-        try{
-        reader = new BufferedReader(new FileReader(file));
+        try(BufferedReader reader = new BufferedReader(new FileReader(file))){
 
         while((line = reader.readLine()) != null){
 
@@ -137,12 +111,6 @@ public class FileAccountDAO implements AccountDAO {
             throw new DAOException("File not found exception", e);
         } catch (IOException e) {
             throw new DAOException("I/O exception", e);
-        } finally {
-            try {
-                reader.close();
-            } catch (IOException e) {
-                throw new DAOException("I/O exception", e);
-            }
         }
         return false;
     }
@@ -150,9 +118,9 @@ public class FileAccountDAO implements AccountDAO {
 
     @Override
     public boolean delete(Account account) throws DAOException {
-        try{
-        reader = new BufferedReader(new FileReader(file));
-        writer = new BufferedWriter(new FileWriter(file2));
+        log.info("DAO layer delete");
+        try(BufferedReader reader = new BufferedReader(new FileReader(file));BufferedWriter writer = new BufferedWriter(new FileWriter(file2))){
+
         String[] str;
         String line;
         while((line = reader.readLine()) != null){
@@ -165,32 +133,23 @@ public class FileAccountDAO implements AccountDAO {
             writer.newLine();
 
         }
-        reader.close();
-        writer.close();
-
-        file.delete();
-        file2.renameTo(file);
-
         return true;
-        }catch (FileNotFoundException e){
-            throw new DAOException("File not found exception",e);
+        } catch (FileNotFoundException e) {
+            throw new DAOException("File not found",e);
         } catch (IOException e) {
-            throw new DAOException("I/O exception",e);
-        } finally {
-            try {
-                reader.close();
-                writer.close();
-            } catch (IOException e) {
-                throw new DAOException("I/O exception",e);
-            }
+            throw new DAOException("IOException", e);
+        }finally {
+            file.delete();
+            file2.renameTo(file);
         }
+
     }
 
     @Override
     public Account get(Account account) throws DAOException {
-        try {
+        log.info("DAO layer get");
 
-            reader = new BufferedReader(new FileReader(file));
+        try (BufferedReader reader = new BufferedReader(new FileReader(file));){
 
             while ((line = reader.readLine()) != null) {
 
@@ -216,12 +175,6 @@ public class FileAccountDAO implements AccountDAO {
             throw new DAOException("File not found exception", e);
         } catch (IOException e) {
             throw new DAOException("I/O exception", e);
-        } finally {
-            try {
-                reader.close();
-            } catch (IOException e) {
-                throw new DAOException("I/O exception", e);
-            }
         }
     }
 }
