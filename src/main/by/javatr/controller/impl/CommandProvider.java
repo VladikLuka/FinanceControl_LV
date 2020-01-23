@@ -8,7 +8,6 @@ import main.by.javatr.controller.command.impl.adminCommand.DeleteAccount;
 import main.by.javatr.controller.command.impl.adminCommand.GetAdmin;
 import org.apache.log4j.Logger;
 
-import javax.swing.text.ChangedCharSetException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,6 +34,7 @@ public final class CommandProvider {
         repository.put(CommandName.GET_ADMIN, new GetAdmin());
         repository.put(CommandName.DELETE_ACCOUNT, new DeleteAccount());
         repository.put(CommandName.CHANGE_CURRENCY, new ChangeCurrency());
+        repository.put(CommandName.EXIT, new Exit());
 
     }
 

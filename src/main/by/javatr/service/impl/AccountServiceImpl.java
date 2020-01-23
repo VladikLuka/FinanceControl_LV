@@ -4,6 +4,7 @@ import main.by.javatr.bean.Account;
 import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.dao.DAOException.DAOException;
 import main.by.javatr.dao.DAOFactory.DAOFactory;
+import main.by.javatr.dao.DAOFactory.FileDAOFactory;
 import main.by.javatr.dao.impl.FileAccountDAO;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
@@ -16,9 +17,8 @@ public class AccountServiceImpl implements AccountService {
 
     private static FileAccountDAO getFileAccountDAO(){
 
-        log.info("Service layer getFileAccountDAO");
-        DAOFactory fileDAOFactory = DAOFactory.getDAOFactory(DAOFactory.FILE);
-        return (FileAccountDAO) fileDAOFactory.getAccountDAO();
+        DAOFactory factory = new FileDAOFactory();
+        return (FileAccountDAO) factory.getAccountDAO();
     }
 
     @Override
@@ -147,5 +147,18 @@ public class AccountServiceImpl implements AccountService {
             throw new ServiceException("DAOException", e);
         }
         return true;
+    }
+
+    @Override
+    public Account getAccountByLogin(Account account) throws ServiceException {
+        log.info("Service layer delete");
+
+        FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
+        try {
+            fileAccountDAO.get(account);
+        } catch (DAOException e) {
+            throw new ServiceException("DAOException", e);
+        }
+        return account;
     }
 }

@@ -1,6 +1,7 @@
 package main.by.javatr.controller.command.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
@@ -14,19 +15,18 @@ public class ChangeCurrency implements Command {
     private static Logger log = Logger.getLogger(ChangeCurrency.class.getName());
 
     @Override
-    public String execute(String request) throws ControllerException, ServiceException {
+    public String execute(String request) throws ControllerException{
         log.info("Controller layer execute");
 
         String[] str = request.split(" ");
 
         if(str.length != 2) return "wrong request";
 
-        if(Account.getAccount() == null) return "wrong request";
+        if(Session.checkAccount() == null) return "wrong request";
 
-        if(!Account.getAccount().isBan()) {
+        Account account = Session.getAccount();
 
-
-            Account account = Account.getInstance();
+        if(!account.isBan()) {
 
             if(str[1].equals("dollar")) {
                 account.setCurrentCur('$');

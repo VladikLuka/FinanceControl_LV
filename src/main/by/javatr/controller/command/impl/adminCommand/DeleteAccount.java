@@ -1,6 +1,7 @@
 package main.by.javatr.controller.command.impl.adminCommand;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
@@ -18,10 +19,13 @@ public class DeleteAccount implements Command {
 
         log.info("Controller layer execute");
 
-        if(Account.isIsAdmin()){
+        if(Session.checkAccount() == null) return "wrong request";
+        Account account = Session.getAccount();
+
+
+        if(account.isAdmin()){
 
             String[] str = request.split(" ");
-            Account account = Account.getInstance();
 
             Account account1 = new Account();
 

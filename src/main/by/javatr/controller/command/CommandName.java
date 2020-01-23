@@ -8,7 +8,6 @@ public enum CommandName {
     WRONG_REQUEST,
     CHANGE_BALANCE,
     CHANGE_FOOD,
-    CHANGE_EXPENSES,
     CHANGE_TRANSPORT,
     CHANGE_ENTERTAINMENT,
     CHANGE_OTHER,
@@ -18,5 +17,6 @@ public enum CommandName {
     BAN,
     DELETE_ACCOUNT,
     CHANGE_CURRENCY,
+    EXIT,
     GET_ADMIN;
 }

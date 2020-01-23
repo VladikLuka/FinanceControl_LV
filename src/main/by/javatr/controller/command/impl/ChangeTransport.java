@@ -1,6 +1,7 @@
 package main.by.javatr.controller.command.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
@@ -17,19 +18,17 @@ public class ChangeTransport implements Command {
     private static Logger log = Logger.getLogger(ChangeTransport.class.getName());
 
     @Override
-    public String execute(String request) throws ServiceException, ControllerException {
+    public String execute(String request) throws ControllerException {
         log.info("Controller layer execute");
 
         String[] str = request.split(" ");
 
         if(str.length != 2) return "wrong request";
 
-        if(Account.getAccount() == null) return "wrong request";
+        if(Session.checkAccount() == null) return "wrong request";
+        Account account = Session.getAccount();
 
-        if(!Account.getAccount().isBan()) {
-
-
-            Account account = Account.getInstance();
+        if(!account.isBan()) {
 
             account.setTransport(Double.parseDouble(str[1]));
 

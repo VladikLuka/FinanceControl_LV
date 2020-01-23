@@ -1,6 +1,7 @@
 package main.by.javatr.controller.command.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
@@ -24,12 +25,12 @@ public class ChangeEntertainment implements Command {
 
         if(str.length != 2) return "wrong request";
 
-        if(Account.getAccount() == null) return "wrong request";
+        if(Session.checkAccount() == null) return "wrong request";
 
-        if(!Account.getAccount().isBan()) {
+        Account account = Session.getAccount();
 
 
-            Account account = Account.getInstance();
+        if(!account.isBan()) {
 
             account.setEntertainment(Double.parseDouble(str[1]));
 

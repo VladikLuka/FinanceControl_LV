@@ -1,6 +1,7 @@
 package main.by.javatr.dao.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.dao.AccountDAO;
 import main.by.javatr.dao.DAOException.DAOException;
 import org.apache.log4j.Logger;
@@ -79,12 +80,12 @@ public class FileAccountDAO implements AccountDAO {
                     account.setAdmin(Boolean.parseBoolean(str[8]));
                     account.setBan(Boolean.parseBoolean(str[9]));
                     account.setCurrentCur(str[10].charAt(0));
-                    break;
-
+                    return account;
                 }
 
             }
-            return account;
+
+            return null;
         }catch (FileNotFoundException e){
             throw new DAOException("File not found exception", e);
         } catch (IOException e) {
@@ -155,7 +156,7 @@ public class FileAccountDAO implements AccountDAO {
 
                 str = line.split(" ");
                 if (account.getLogin().equals(str[0])) {
-                    account.setPassword(str[2]);
+                    account.setPassword(str[1]);
                     account.setExpenses(Double.parseDouble(str[3]));
                     account.setBalance(Double.parseDouble(str[2]));
                     account.setTransport(Double.parseDouble(str[4]));

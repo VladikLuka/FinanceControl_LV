@@ -15,5 +15,6 @@ public interface AccountService {
     Account changeCategory(Account account) throws ServiceException;
     Account update(Account account) throws ServiceException;
     boolean delete(Account account) throws ServiceException;
+    Account getAccountByLogin(Account account) throws ServiceException;
 
 }

@@ -2,11 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66f78f67-c9d4-4d7b-965e-d2067b4878c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/bean/Session.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/Exit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/by/javatr/bean/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Exit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DB.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DB.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/META-INF/FinalProjectLukiyanets_V.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/bean/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/bean/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/CommandName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/CommandName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeBalance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeBalance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeCurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeCurrency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeEntertainment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeEntertainment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeFood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeOther.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeTransport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/LogOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/BanAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/BanAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/CommandProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/CommandProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/DAOFactory/DAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/DAOFactory/DAOFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/DB.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/view/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/view/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/bean/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/CommandName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/CommandName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeBalance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeCurrency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeEntertainment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeEntertainment.java" afterDir="false" />
@@ -18,17 +49,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Wrong_request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Wrong_request.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/BanAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/BanAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/CommandProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/CommandProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/DAOFactory/FileDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/dao/DAOFactory/FileDAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/DAOFactory/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/dao/DAOFactory/DAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/impl/DB.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/impl/FileAccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/dao/impl/FileAccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/service/impl/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/view/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/view/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +81,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VZqBH9tRJzu7Q7XQPRR9l18j9N" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -67,7 +101,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="findjar.last.used.dir" value="C:/Program Files/Java/jre-10.0.2/lib" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FP/ProjectLukiyanets_V" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -170,6 +204,8 @@
       <workItem from="1579353141625" duration="53228000" />
       <workItem from="1579645305183" duration="5448000" />
       <workItem from="1579697034228" duration="7909000" />
+      <workItem from="1579709806650" duration="12530000" />
+      <workItem from="1579728980002" duration="13802000" />
     </task>
     <servers />
   </component>
@@ -181,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1577470846825" />
-    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579562144268">
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579726230669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579562144268" />
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579726230669" />
     <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579471845537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,54 +237,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="557" y="150" key="#test.by.javatr_in_FinalProjectLukiyanets_V/0.0.1920.1040@0.0.1920.1040" timestamp="1579471743596" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1579652973430">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1579709903342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579652973430" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579708495330">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579709903342" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579783549415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579708495330">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579783549415" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579783549415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579708495330">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579783549415" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579783549415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579708495330">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579783549415" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579783549415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579708495331">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579783549415" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579783548163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495331" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579708495330">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579783548163" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579783548163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579708495330">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579783548163" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579783548163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495330" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579708495331">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579783548163" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579783548163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579708495331" />
-    <state x="466" y="91" key="SettingsEditor" timestamp="1579652976449">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579783548163" />
+    <state x="466" y="91" key="SettingsEditor" timestamp="1579715001912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="466" y="91" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579652976449" />
+    <state x="466" y="91" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579715001912" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1579455122683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1579455122683" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579645333850">
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579729040836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579645333850" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579729040836" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579708408499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,6 +301,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1579646058766" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1579741296030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579741296030" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579518355246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

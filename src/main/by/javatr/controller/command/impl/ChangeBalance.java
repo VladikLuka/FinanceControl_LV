@@ -1,7 +1,9 @@
 package main.by.javatr.controller.command.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
+import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
@@ -13,7 +15,7 @@ public class ChangeBalance implements Command {
     private static Logger log = Logger.getLogger(ChangeBalance.class.getName());
 
     @Override
-    public String execute(String request) throws ServiceException {
+    public String execute(String request) throws ControllerException {
 
         log.info("Controller layer execute");
 
@@ -22,18 +24,22 @@ public class ChangeBalance implements Command {
 
         if(str.length != 2) return "wrong request";
 
-        if(Account.getAccount() == null) return "wrong request";
+        if(Session.checkAccount() == null) return "wrong request";
 
-        if(!Account.getAccount().isBan()) {
+        Account account = Session.getAccount();
 
-            Account account = Account.getInstance();
+        if(!account.isBan()) {
 
-            //Account account = new Account();
+
 
             account.setBalance(account.getBalance() + Double.parseDouble(str[1]));
 
             AccountService accountService = new AccountServiceImpl();
-            accountService.changeBalance(account);
+            try {
+                accountService.changeBalance(account);
+            } catch (ServiceException e) {
+                throw new ControllerException("ServiceException",e);
+            }
             return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
 
         }

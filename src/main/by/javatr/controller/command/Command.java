@@ -8,6 +8,6 @@ import java.io.IOException;
 
 public interface Command {
 
-    public String execute(String request) throws ControllerException, ServiceException;
+    String execute(String request) throws ControllerException;
 
 }

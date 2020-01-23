@@ -1,6 +1,7 @@
 package main.by.javatr.controller.command.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
@@ -12,19 +13,18 @@ public class ClearAll implements Command {
     private static Logger log = Logger.getLogger(ClearAll.class.getName());
 
     @Override
-    public String execute(String request) throws ControllerException, ServiceException {
+    public String execute(String request) throws ControllerException{
         log.info("Controller layer execute");
 
         String[] str = request.split(" ");
 
         if(str.length != 1) return "wrong request";
 
-        if(Account.getAccount() == null) return "wrong request";
+        if(Session.checkAccount() == null) return "wrong request";
 
-        if(!Account.getAccount().isBan()) {
+        Account account = Session.getAccount();
 
-
-            Account account = Account.getInstance();
+        if(!account.isBan()) {
 
             account.setOther(0);
             account.setFood(0);

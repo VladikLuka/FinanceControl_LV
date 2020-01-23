@@ -1,6 +1,6 @@
 package main.by.javatr.view;
 
-import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.controller.ControllerInterface;
@@ -19,9 +19,11 @@ public class Runner {
         ControllerInterface contr = new Controller();
         String response = null;
 
+        Session session = Session.getInstance();
+
         while (true) {
 
-            if(Account.getAccount() == null){
+            if(Session.checkAccount() == null){
 
                 System.out.println("LogIn or Registration");
 
@@ -34,10 +36,10 @@ public class Runner {
                     System.out.println("ControllerException");
                 }
 
-
                 System.out.println(response);
-            }else if(Account.getInstance().isBan()){
-                System.out.println("You are banned\nLogout");
+
+            }else if(Session.getAccount().isBan()){
+                System.out.println("You are banned\nLogout\nexit");
                 scanner = new Scanner(System.in);
                 request = scanner.nextLine();
 
@@ -46,11 +48,12 @@ public class Runner {
                 } catch (ControllerException e) {
                     System.out.println("ControllerException");
                 }
+                System.out.println(response);
             }
 
             else {
-                if (!Account.isIsAdmin()) {
-                    System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nLogout");
+                if (!Session.checkAccount().isAdmin()) {
+                    System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nLogout\nexit");
 
                     scanner = new Scanner(System.in);
                     request = scanner.nextLine();
@@ -63,7 +66,7 @@ public class Runner {
                     System.out.println(response);
                 }
                 else {
-                    System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nget_Admin\nban\ndelete_account\nLogout");
+                    System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nget_Admin\nban\ndelete_account\nLogout\nexit");
 
                     scanner = new Scanner(System.in);
                     request = scanner.nextLine();
@@ -73,7 +76,6 @@ public class Runner {
                     } catch (ControllerException e) {
                         System.out.println("ControllerException");
                     }
-
                     System.out.println(response);
                 }
 

@@ -1,7 +1,9 @@
 package main.by.javatr.controller.command.impl;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
+import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
@@ -13,7 +15,7 @@ public class LogIn implements Command {
     private static Logger log = Logger.getLogger(LogIn.class.getName());
 
     @Override
-    public String execute(String request) throws ServiceException {
+    public String execute(String request) throws ControllerException {
         log.info("Controller layer execute");
 
         AccountService accountService = new AccountServiceImpl();
@@ -21,17 +23,31 @@ public class LogIn implements Command {
 
         if(str.length != 3) return "wrong request";
 
-        Account account = Account.getInstance();
+
+        if(Session.checkAccount() != null){
+            return "wrong request";
+        }
+
+        Account account = Session.getAccount();
+
         account.setLogin(str[1]);
         account.setPassword(str[2]);
 
-        if(accountService.checkRegistration(account)) {
-            account = accountService.logIn(account);
-            if(account.isAdmin()){
-                Account.setIsAdmin(true);
-            }else Account.setIsAdmin(false);
-            return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
-        }else Account.delInstance();
+        try {
+            if(accountService.checkRegistration(account)) {
+                account = accountService.logIn(account);
+                if(account == null){
+                    Session.delAccount();
+                    return "You are not registered";
+                }
+                if(account.isAdmin()){
+                    Session.setAdmin(true);
+                }else Session.setAdmin(false);
+                return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
+            }else Session.delAccount();
+        } catch (ServiceException e) {
+            throw new ControllerException("ServiceException",e);
+        }
 
         return "Log in failed, try again";
 

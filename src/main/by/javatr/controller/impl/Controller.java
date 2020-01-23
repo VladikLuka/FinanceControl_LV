@@ -15,7 +15,7 @@ public final class Controller implements ControllerInterface {
 
     private static Logger log = Logger.getLogger(Controller.class.getName());
 
-    public String executeTask(String request) throws ControllerException {
+    public String executeTask(String request) {
         log.info("Controller layer executeTask");
 
         String[] commandName;
@@ -25,14 +25,13 @@ public final class Controller implements ControllerInterface {
         executeCommand = provider.getCommand(commandName[0]);
 
 
-        String response;
+        String response = null;
 
 
         try {
             response = executeCommand.execute(request);
-        } catch (ServiceException e) {
-            log.error("Exception", e);
-            throw new ControllerException("Service Exception",e);
+        } catch (ControllerException e) {
+            log.error("ControllerException",e);
         }
 
 

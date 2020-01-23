@@ -1,7 +1,9 @@
 package main.by.javatr.controller.command.impl.adminCommand;
 
 import main.by.javatr.bean.Account;
+import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
+import main.by.javatr.controller.controllerException.ControllerException;
 import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
@@ -13,14 +15,17 @@ public class BanAccount implements Command {
     private static Logger log = Logger.getLogger(BanAccount.class.getName());
 
     @Override
-    public String execute(String request) {
+    public String execute(String request) throws ControllerException {
 
         log.info("Controller layer execute");
 
-        if(Account.isIsAdmin()){
+        if(Session.checkAccount() == null) return "wrong request";
+
+        Account account = Session.getAccount();
+
+        if(account.isAdmin()){
 
             String[] str = request.split(" ");
-            Account account = Account.getInstance();
 
             Account account1 = new Account();
 
@@ -28,14 +33,21 @@ public class BanAccount implements Command {
 
             AccountService service = new AccountServiceImpl();
             try {
-                if (service.checkRegistration(account)){
-                    account1 = service.logIn(account1);
-                    account1.setBan(true);
-                    service.update(account1);
-                    return account1.getLogin() + " Banned";
+                if (service.checkRegistration(account1)){
+                    if(account1.isBan()) {
+                        account1 = service.getAccountByLogin(account1);
+                        account1.setBan(false);
+                        service.update(account1);
+                        return account1.getLogin() + " Unbanned";
+                    }else {
+                        account1 = service.getAccountByLogin(account1);
+                        account1.setBan(true);
+                        service.update(account1);
+                        return account1.getLogin() + " Banned";
+                    }
                 }
             } catch (ServiceException e) {
-                e.printStackTrace();
+                throw new ControllerException("ServiceException", e);
             }
         }
 
