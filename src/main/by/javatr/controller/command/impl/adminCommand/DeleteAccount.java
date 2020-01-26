@@ -3,8 +3,6 @@ package main.by.javatr.controller.command.impl.adminCommand;
 import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
-import main.by.javatr.controller.controllerException.ControllerException;
-import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
@@ -26,6 +24,10 @@ public class DeleteAccount implements Command {
         if(account.isAdmin()){
 
             String[] str = request.split(" ");
+
+            if(str.length != 2){
+                return "wrong request";
+            }
 
             Account account1 = new Account();
 

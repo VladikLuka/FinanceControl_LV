@@ -11,6 +11,7 @@ import main.by.javatr.service.ServiceException.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
 import org.apache.log4j.Logger;
 
+import java.awt.font.NumericShaper;
 import java.io.IOException;
 
 public class ChangeFood implements Command {
@@ -32,8 +33,11 @@ public class ChangeFood implements Command {
 
         if (!account.isBan()) {
 
-            account.setFood(account.getFood() + Double.parseDouble(str[1]));
-
+            try {
+                account.setFood(account.getFood() + Double.parseDouble(str[1]));
+            }catch (NumberFormatException e){
+                throw new ControllerException("NumericFormatException");
+            }
             AccountService accountService = new AccountServiceImpl();
             try {
                 accountService.changeCategory(account);

@@ -8,6 +8,13 @@ public class Exit implements Command {
     @Override
     public String execute(String request){
 
+        String[] str = request.split(" ");
+
+
+        if(request.length() != 1){
+            return "wrong request";
+        }
+
         System.exit(0);
         return null;
     }

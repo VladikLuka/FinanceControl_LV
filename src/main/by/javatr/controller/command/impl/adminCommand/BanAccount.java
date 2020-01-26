@@ -27,6 +27,10 @@ public class BanAccount implements Command {
 
             String[] str = request.split(" ");
 
+            if(str.length != 2){
+                return "wrong request";
+            }
+
             Account account1 = new Account();
 
             account1.setLogin(str[1]);

@@ -43,7 +43,10 @@ public class Account implements Serializable {
                 ", food=" + food +
                 ", transport=" + transport +
                 ", entertainment=" + entertainment +
-                ", other=" + other;
+                ", other=" + other +
+                ", admin=" + admin +
+                ", ban=" + ban +
+                ", currency=" + currentCur + "}";
     }
 
     public void setLogin(String login) {
@@ -62,79 +65,79 @@ public class Account implements Serializable {
         return login;
     }
 
-    public String getPassword() {
+    public final String getPassword() {
         return password;
     }
 
-    public double getBalance() {
+    public final double getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    public final void setBalance(double balance) {
         this.balance = balance;
     }
 
-    public double getFood() {
+    public final double getFood() {
         return food;
     }
 
-    public void setFood(double food) {
+    public final void setFood(double food) {
         this.food = food;
     }
 
-    public double getTransport() {
+    public final double getTransport() {
         return transport;
     }
 
-    public void setTransport(double transport) {
+    public final void setTransport(double transport) {
         this.transport = transport;
     }
 
-    public double getEntertainment() {
+    public final double getEntertainment() {
         return entertainment;
     }
 
-    public void setEntertainment(double entertainment) {
+    public final void setEntertainment(double entertainment) {
         this.entertainment = entertainment;
     }
 
-    public double getExpenses() {
+    public final double getExpenses() {
         return expenses;
     }
 
-    public void setExpenses(double expenses) {
+    public final void setExpenses(double expenses) {
         this.expenses = expenses;
     }
 
-    public double getOther() {
+    public final double getOther() {
         return other;
     }
 
-    public void setOther(double other) {
+    public final void setOther(double other) {
         this.other = other;
     }
 
-    public boolean isAdmin() {
+    public final boolean isAdmin() {
         return admin;
     }
 
-    public void setAdmin(boolean admin) {
+    public final void setAdmin(boolean admin) {
         this.admin = admin;
     }
 
-    public boolean isBan() {
+    public final boolean isBan() {
         return ban;
     }
 
-    public void setBan(boolean ban) {
+    public final void setBan(boolean ban) {
         this.ban = ban;
     }
 
-    public char getCurrentCur() {
+    public final char getCurrentCur() {
         return currentCur;
     }
 
-    public void setCurrentCur(char currentCur) {
+    public final void setCurrentCur(char currentCur) {
         this.currentCur = currentCur;
     }
 

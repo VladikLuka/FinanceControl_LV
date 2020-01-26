@@ -32,8 +32,11 @@ public class ChangeEntertainment implements Command {
 
         if(!account.isBan()) {
 
-            account.setEntertainment(Double.parseDouble(str[1]));
-
+            try {
+                account.setEntertainment(Double.parseDouble(str[1]));
+            }catch (NumberFormatException e){
+                throw new ControllerException("NumericFormatException");
+            }
             AccountService accountService = new AccountServiceImpl();
             try {
                 accountService.changeCategory(account);

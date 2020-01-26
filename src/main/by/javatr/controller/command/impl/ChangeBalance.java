@@ -30,9 +30,12 @@ public class ChangeBalance implements Command {
 
         if(!account.isBan()) {
 
+            try {
+                account.setBalance(account.getBalance() + Double.parseDouble(str[1]));
+            }catch(NumberFormatException e){
+                throw new ControllerException("NumerciFormatException",e);
+            }
 
-
-            account.setBalance(account.getBalance() + Double.parseDouble(str[1]));
 
             AccountService accountService = new AccountServiceImpl();
             try {

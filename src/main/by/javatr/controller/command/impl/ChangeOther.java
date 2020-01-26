@@ -31,8 +31,11 @@ public class ChangeOther implements Command {
 
         if(!account.isBan()) {
 
-            account.setOther(Double.parseDouble(str[1]));
-
+            try {
+                account.setOther(Double.parseDouble(str[1]));
+            }catch (NumberFormatException e){
+                throw new ControllerException("NumericFormatException");
+            }
             AccountService accountService = new AccountServiceImpl();
             try {
                 accountService.changeCategory(account);

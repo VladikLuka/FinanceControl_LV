@@ -1298,3 +1298,234 @@ Caused by: main.by.javatr.dao.DAOException.DAOException: File not found
 2020-01-23 15:47:15 INFO  Registration:22 - Controller layer execute
 2020-01-23 15:47:17 INFO  Controller:19 - Controller layer executeTask
 2020-01-23 15:47:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 15:49:36 INFO  Runner:16 - View layer main
+2020-01-23 15:49:40 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 15:49:40 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 15:49:40 INFO  Wrong_request:13 - Controller layer execute
+2020-01-23 15:49:45 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 15:49:45 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 15:49:45 INFO  LogIn:19 - Controller layer execute
+2020-01-23 15:49:45 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 15:49:45 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 15:49:45 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 15:49:45 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 15:49:45 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 15:49:45 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 15:49:51 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 15:49:51 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 15:49:51 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 15:57:40 INFO  Runner:16 - View layer main
+2020-01-23 15:57:43 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 15:57:43 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 15:57:43 INFO  LogIn:19 - Controller layer execute
+2020-01-23 15:57:43 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 15:57:43 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 15:57:43 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 15:57:43 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 15:57:43 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 15:57:43 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 15:57:47 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 15:57:47 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 15:57:47 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 16:01:05 INFO  Runner:16 - View layer main
+2020-01-23 16:01:08 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:01:08 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:01:08 INFO  LogIn:19 - Controller layer execute
+2020-01-23 16:01:08 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 16:01:09 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:01:09 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 16:01:09 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 16:01:09 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:01:09 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 16:01:12 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:01:12 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:01:12 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 16:01:12 INFO  AccountServiceImpl:77 - Service layer changeBalance
+2020-01-23 16:01:12 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:01:12 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-23 16:01:17 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:01:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:01:17 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 16:05:02 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:05:02 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:05:02 INFO  ChangeCurrency:19 - Controller layer execute
+2020-01-23 16:05:02 INFO  AccountServiceImpl:127 - Service layer update
+2020-01-23 16:05:02 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:05:02 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-23 16:06:09 INFO  Runner:16 - View layer main
+2020-01-23 16:06:12 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:06:12 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:06:12 INFO  LogIn:19 - Controller layer execute
+2020-01-23 16:06:12 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 16:06:12 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:06:12 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 16:06:12 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 16:06:12 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:06:12 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 16:06:17 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:06:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:06:17 INFO  ChangeCurrency:19 - Controller layer execute
+2020-01-23 16:13:47 INFO  Runner:16 - View layer main
+2020-01-23 16:13:55 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:13:55 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:13:55 INFO  Registration:22 - Controller layer execute
+2020-01-23 16:14:52 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:14:52 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:14:52 INFO  LogIn:19 - Controller layer execute
+2020-01-23 16:14:52 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 16:14:52 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:14:52 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 16:14:52 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 16:14:52 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 16:14:52 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 16:15:00 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:15:00 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:15:00 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 16:15:07 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:15:07 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:15:07 INFO  ChangeFood:22 - Controller layer execute
+2020-01-23 16:15:07 ERROR ChangeFood:39 - NumericFormatException
+java.lang.NumberFormatException: For input string: "qw"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeFood.execute(ChangeFood.java:37)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+2020-01-23 16:15:15 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:15:15 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:15:15 INFO  ChangeOther:22 - Controller layer execute
+2020-01-23 16:15:15 ERROR ChangeOther:37 - NumericFormatException
+java.lang.NumberFormatException: For input string: "%!"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeOther.execute(ChangeOther.java:35)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+2020-01-23 16:15:20 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:15:20 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 16:15:20 INFO  LogOut:15 - Controller layer execute
+2020-01-23 16:15:23 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 16:15:23 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:10:04 INFO  Runner:16 - View layer main
+2020-01-23 17:10:08 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 17:10:08 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:10:08 INFO  LogIn:19 - Controller layer execute
+2020-01-23 17:10:08 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 17:10:08 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 17:10:08 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 17:10:08 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 17:10:08 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 17:10:08 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 17:10:13 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 17:10:13 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:10:13 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 17:10:13 INFO  AccountServiceImpl:77 - Service layer changeBalance
+2020-01-23 17:10:13 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 17:10:13 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-23 17:10:18 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 17:10:18 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:10:18 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 17:10:18 ERROR Controller:34 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumerciFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "qwe"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:34)
+	... 2 more
+2020-01-23 17:11:13 INFO  Runner:16 - View layer main
+2020-01-23 17:11:15 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 17:11:15 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:11:15 INFO  LogIn:19 - Controller layer execute
+2020-01-23 17:11:15 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 17:11:15 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 17:11:15 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 17:11:15 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 17:11:15 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 17:11:15 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 17:11:24 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 17:11:25 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:11:32 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 17:11:43 ERROR Controller:34 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumerciFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "qwe"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:34)
+	... 2 more
+2020-01-23 17:17:33 INFO  Runner:16 - View layer main
+2020-01-23 17:17:36 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 17:17:36 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:17:36 INFO  LogIn:19 - Controller layer execute
+2020-01-23 17:17:36 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-23 17:17:36 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 17:17:36 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-23 17:17:36 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-23 17:17:36 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-23 17:17:36 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-23 17:17:40 INFO  Controller:19 - Controller layer executeTask
+2020-01-23 17:17:40 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-23 17:17:40 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-23 17:17:40 ERROR Controller:34 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumerciFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "qw"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:34)
+	... 2 more
+2020-01-25 21:55:50 INFO  Runner:16 - View layer main
+2020-01-25 21:56:56 INFO  Controller:19 - Controller layer executeTask
+2020-01-25 21:56:56 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-25 21:56:56 INFO  LogIn:19 - Controller layer execute
+2020-01-25 21:56:56 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-25 21:56:56 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-25 21:56:56 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-25 21:56:56 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-25 21:56:56 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-25 21:56:56 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-25 21:57:04 INFO  Controller:19 - Controller layer executeTask
+2020-01-25 21:57:04 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-25 21:57:04 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-25 21:57:04 ERROR Controller:34 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumerciFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "qe"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:34)
+	... 2 more
+2020-01-25 21:57:10 INFO  Controller:19 - Controller layer executeTask
+2020-01-25 21:57:10 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-25 21:57:10 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-25 21:57:10 INFO  AccountServiceImpl:77 - Service layer changeBalance
+2020-01-25 21:57:10 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-25 21:57:10 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-25 23:05:33 INFO  Runner:16 - View layer main
+2020-01-25 23:05:37 INFO  Controller:19 - Controller layer executeTask
+2020-01-25 23:05:37 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-25 23:05:37 INFO  LogIn:19 - Controller layer execute
+2020-01-25 23:05:37 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-25 23:05:37 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-25 23:05:37 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-25 23:05:37 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-25 23:05:37 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-25 23:05:37 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-25 23:05:48 INFO  Controller:19 - Controller layer executeTask
+2020-01-25 23:05:48 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-25 23:05:48 INFO  GetAdmin:19 - Controller layer execute

@@ -32,6 +32,7 @@ public final class Controller implements ControllerInterface {
             response = executeCommand.execute(request);
         } catch (ControllerException e) {
             log.error("ControllerException",e);
+            response = "wrong request";
         }
 
 

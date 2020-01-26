@@ -29,9 +29,11 @@ public class ChangeTransport implements Command {
         Account account = Session.getAccount();
 
         if(!account.isBan()) {
-
-            account.setTransport(Double.parseDouble(str[1]));
-
+            try {
+                account.setTransport(Double.parseDouble(str[1]));
+            }catch (NumberFormatException e){
+                throw new ControllerException("NumericFormatException");
+            }
             AccountService accountService = new AccountServiceImpl();
             try {
                 accountService.changeCategory(account);

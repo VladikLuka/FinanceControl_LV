@@ -34,12 +34,12 @@ public class ChangeCurrency implements Command {
                 account.setCurrentCur('€');
             }else if(str[1].equals("rub")){
                 account.setCurrentCur('₽');
-            }
+            }else return "wrong request";
             AccountService accountService = new AccountServiceImpl();
             try {
                 accountService.update(account);
             } catch (ServiceException e) {
-                throw new ControllerException("Service Exc", e);
+                throw new ControllerException("Service Exception", e);
             }
             return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
 

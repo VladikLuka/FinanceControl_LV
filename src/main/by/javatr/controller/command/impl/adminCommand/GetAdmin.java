@@ -26,6 +26,10 @@ public class GetAdmin implements Command {
 
             String[] str = request.split(" ");
 
+            if(str.length != 2){
+                return "wrong request";
+            }
+
             AccountService service = new AccountServiceImpl();
 
             Account account1 = new Account();

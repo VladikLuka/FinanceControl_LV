@@ -45,6 +45,7 @@ public class ClearCategory implements Command {
                 case "OTHER":
                     account.setOther(0);
                     break;
+                default: return  "wrong request";
             }
             return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
 

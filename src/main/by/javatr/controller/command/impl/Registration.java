@@ -29,7 +29,7 @@ public class Registration implements Command {
         Session session = Session.getInstance();
         Account account = Session.getAccount();
 
-        if(arrRequest[1].matches("[0-9a-zA-Z]{3,}"))
+        if(arrRequest[1].matches("[^0-9][0-9a-zA-Z]{3,}"))
         account.setLogin(arrRequest[1]);
         else{
             Session.delAccount();
