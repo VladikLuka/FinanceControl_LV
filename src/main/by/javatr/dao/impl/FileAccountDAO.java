@@ -61,7 +61,7 @@ public class FileAccountDAO implements AccountDAO {
     }
 
     @Override
-    public Account find(Account account) throws DAOException {
+    public boolean find(Account account) throws DAOException {
 
         log.info("DAO layer find");
 
@@ -80,12 +80,12 @@ public class FileAccountDAO implements AccountDAO {
                     account.setAdmin(Boolean.parseBoolean(str[8]));
                     account.setBan(Boolean.parseBoolean(str[9]));
                     account.setCurrentCur(str[10].charAt(0));
-                    return account;
+                    return true;
                 }
 
             }
 
-            return null;
+            return false;
         }catch (FileNotFoundException e){
             throw new DAOException("File not found exception", e);
         } catch (IOException e) {

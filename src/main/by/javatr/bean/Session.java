@@ -1,11 +1,11 @@
 package main.by.javatr.bean;
 
-public final class Session {
+public class Session {
 
     private static Session session;
-    private static Account account;
+    private Account account;
 
-    private static boolean isAdmin;
+    private boolean isLogin;
 
     public static Session getInstance(){
 
@@ -15,12 +15,12 @@ public final class Session {
         return session;
     }
 
-    public static void delAccount(){
+    public void delAccount(){
         account = null;
     }
 
 
-    public static Account getAccount() {
+    public Account getAccount() {
 
         if(account == null){
             account = new Account();
@@ -29,16 +29,12 @@ public final class Session {
         return account;
     }
 
-    public static Account checkAccount(){
-        return account;
+    public final boolean isLogin() {
+        return isLogin;
     }
 
-    public boolean isAdmin() {
-        return isAdmin;
-    }
-
-    public static void setAdmin(boolean admin) {
-        isAdmin = admin;
+    public final void setLogin(boolean login) {
+        isLogin = login;
     }
 
     private Session(){}

@@ -16,10 +16,14 @@ public class LogOut implements Command {
 
         String[] str = request.split(" ");
 
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
+
         if(str.length != 1) return "wrong request";
 
-        Session.delAccount();
+        session.delAccount();
+        session.setLogin(false);
 
-        return "";
+        return new String("");
     }
 }

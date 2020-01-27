@@ -23,33 +23,32 @@ public class LogIn implements Command {
 
         if(str.length != 3) return "wrong request";
 
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
 
-        if(Session.checkAccount() != null){
+        if(session.isLogin()){
             return "wrong request";
         }
-
-        Account account = Session.getAccount();
 
         account.setLogin(str[1]);
         account.setPassword(str[2]);
 
         try {
             if(accountService.checkRegistration(account)) {
-                account = accountService.logIn(account);
-                if(account == null){
-                    Session.delAccount();
-                    return "You are not registered";
+                boolean login = accountService.logIn(account);
+                if(!login){
+                    session.delAccount();
+                    return new String("You are not registered");
+                }else{
+                    session.setLogin(true);
                 }
-                if(account.isAdmin()){
-                    Session.setAdmin(true);
-                }else Session.setAdmin(false);
-                return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
-            }else Session.delAccount();
+                return new String("Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur());
+            }else session.delAccount();
         } catch (ServiceException e) {
             throw new ControllerException("ServiceException",e);
         }
 
-        return "Log in failed, try again";
+        return new String("Log in failed, try again");
 
     }
 }

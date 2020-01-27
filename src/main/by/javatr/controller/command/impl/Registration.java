@@ -27,34 +27,32 @@ public class Registration implements Command {
 
 
         Session session = Session.getInstance();
-        Account account = Session.getAccount();
+        Account account = session.getAccount();
 
-        if(arrRequest[1].matches("[^0-9][0-9a-zA-Z]{3,}"))
-        account.setLogin(arrRequest[1]);
+        if(arrRequest[1].matches("[^0-9_ /w][0-9a-zA-Z]{2,}"))
+            account.setLogin(arrRequest[1]);
         else{
-            Session.delAccount();
+            session.delAccount();
             return "failed";
         }
         if(arrRequest[2].matches("[0-9a-zA-Z!@#$%^&*]{6,}"))
-        account.setPassword(arrRequest[2]);
+            account.setPassword(arrRequest[2]);
         else{
-            Session.delAccount();
+            session.delAccount();
             return "failed";
         }
 
         AccountService accountService = new AccountServiceImpl();
         try {
             if(accountService.registration(account)){
-                if (account.isAdmin()){
-                    Session.setAdmin(true);
-                }else Session.setAdmin(false);
-                return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
-            }else Session.delAccount();
+                session.setLogin(true);
+                return new String("Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur());
+            }else session.delAccount();
         } catch (ServiceException e) {
             throw new ControllerException("ServiceException",e);
         }
 
-        return "account already registered";
+        return new String("account already registered");
 
     }
 }

@@ -24,16 +24,18 @@ public class ChangeBalance implements Command {
 
         if(str.length != 2) return "wrong request";
 
-        if(Session.checkAccount() == null) return "wrong request";
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
 
-        Account account = Session.getAccount();
+        if(!session.isLogin()) return "wrong request";
+
 
         if(!account.isBan()) {
 
             try {
                 account.setBalance(account.getBalance() + Double.parseDouble(str[1]));
             }catch(NumberFormatException e){
-                throw new ControllerException("NumerciFormatException",e);
+                throw new ControllerException("NumericFormatException",e);
             }
 
 
@@ -43,7 +45,7 @@ public class ChangeBalance implements Command {
             } catch (ServiceException e) {
                 throw new ControllerException("ServiceException",e);
             }
-            return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
+            return new String("Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur());
 
         }
     return "wrong request";

@@ -20,9 +20,10 @@ public class ClearCategory implements Command {
 
         if(str.length != 2) return "wrong request";
 
-        if(Session.checkAccount() == null) return "wrong request";
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
 
-        Account account = Session.getAccount();
+        if(!session.isLogin()) return "wrong request";
 
         if(!account.isBan()) {
 
@@ -47,7 +48,7 @@ public class ClearCategory implements Command {
                     break;
                 default: return  "wrong request";
             }
-            return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
+            return new String("Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur());
 
         }
     return "wrong request";

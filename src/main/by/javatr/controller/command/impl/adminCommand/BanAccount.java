@@ -19,9 +19,11 @@ public class BanAccount implements Command {
 
         log.info("Controller layer execute");
 
-        if(Session.checkAccount() == null) return "wrong request";
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
 
-        Account account = Session.getAccount();
+
+        if(!session.isLogin()) return "wrong request";
 
         if(account.isAdmin()){
 
@@ -38,16 +40,15 @@ public class BanAccount implements Command {
             AccountService service = new AccountServiceImpl();
             try {
                 if (service.checkRegistration(account1)){
+                    account1 = service.getAccountByLogin(account1);
                     if(account1.isBan()) {
-                        account1 = service.getAccountByLogin(account1);
                         account1.setBan(false);
                         service.update(account1);
-                        return account1.getLogin() + " Unbanned";
+                        return new String(account1.getLogin() + " Unbanned");
                     }else {
-                        account1 = service.getAccountByLogin(account1);
                         account1.setBan(true);
                         service.update(account1);
-                        return account1.getLogin() + " Banned";
+                        return new String(account1.getLogin() + " Banned");
                     }
                 }
             } catch (ServiceException e) {
@@ -55,6 +56,6 @@ public class BanAccount implements Command {
             }
         }
 
-        return "failed";
+        return new String("failed");
     }
 }

@@ -1529,3 +1529,800 @@ Caused by: java.lang.NumberFormatException: For input string: "qe"
 2020-01-25 23:05:48 INFO  Controller:19 - Controller layer executeTask
 2020-01-25 23:05:48 INFO  CommandProvider:43 - Controller layer getCommand
 2020-01-25 23:05:48 INFO  GetAdmin:19 - Controller layer execute
+2020-01-26 21:19:28 INFO  Runner:16 - View layer main
+2020-01-26 21:19:35 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:19:35 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:19:35 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:19:35 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:19:35 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:19:35 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:19:35 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:19:35 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:19:35 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:20:14 INFO  Runner:16 - View layer main
+2020-01-26 21:20:26 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:20:27 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:20:29 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:20:37 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:20:37 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:20:39 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:20:50 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:20:50 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:20:50 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:22:30 INFO  Runner:16 - View layer main
+2020-01-26 21:22:38 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:22:38 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:22:38 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:22:38 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:22:38 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:22:38 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:22:38 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:22:38 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:22:38 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:22:52 INFO  Runner:16 - View layer main
+2020-01-26 21:23:01 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:23:02 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:23:05 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:23:13 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:23:13 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:23:13 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:23:13 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:23:13 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:23:13 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:25:49 INFO  Runner:16 - View layer main
+2020-01-26 21:25:55 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:25:55 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:25:55 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:25:55 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:25:55 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:25:55 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:25:55 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:25:55 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:25:55 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:26:02 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:26:02 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:26:02 INFO  BanAccount:20 - Controller layer execute
+2020-01-26 21:26:09 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:26:09 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:26:09 INFO  BanAccount:20 - Controller layer execute
+2020-01-26 21:26:20 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:26:20 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:26:20 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-26 21:26:20 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-26 21:26:20 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:26:20 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:26:29 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:26:29 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:26:29 INFO  ChangeTransport:22 - Controller layer execute
+2020-01-26 21:26:29 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:26:29 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:26:29 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:26:35 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:26:35 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:26:35 INFO  ChangeFood:22 - Controller layer execute
+2020-01-26 21:26:35 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:26:35 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:26:35 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:26:42 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:26:42 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:26:42 INFO  ChangeOther:22 - Controller layer execute
+2020-01-26 21:26:42 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:26:42 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:26:42 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:26:53 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:26:53 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:26:53 INFO  ChangeBalance:22 - Controller layer execute
+2020-01-26 21:26:53 ERROR Controller:34 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumericFormatException
+	at main.by.javatr.controller.command.impl.ChangeEntertainment.execute(ChangeEntertainment.java:38)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:32)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+2020-01-26 21:27:05 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:05 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:05 INFO  ChangeBalance:22 - Controller layer execute
+2020-01-26 21:27:05 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:27:05 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:05 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:27:20 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:20 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:20 INFO  ClearCategory:15 - Controller layer execute
+2020-01-26 21:27:27 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:27 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:27 INFO  ClearAll:17 - Controller layer execute
+2020-01-26 21:27:32 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:32 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:32 INFO  LogOut:15 - Controller layer execute
+2020-01-26 21:27:37 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:37 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:37 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:27:37 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:27:37 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:37 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:27:37 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:27:37 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:37 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:27:46 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:46 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:46 INFO  BanAccount:20 - Controller layer execute
+2020-01-26 21:27:46 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:27:46 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:46 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:27:46 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-26 21:27:46 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:46 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-26 21:27:46 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-26 21:27:46 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:46 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:27:52 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:52 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:52 INFO  BanAccount:20 - Controller layer execute
+2020-01-26 21:27:52 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:27:52 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:52 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:27:52 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-26 21:27:52 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:52 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-26 21:27:52 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-26 21:27:52 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:52 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:27:59 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:27:59 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:27:59 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-26 21:27:59 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-26 21:27:59 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:27:59 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:28:05 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:05 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:05 INFO  ChangeFood:22 - Controller layer execute
+2020-01-26 21:28:05 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:28:05 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:05 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:28:13 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:13 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:13 INFO  ChangeTransport:22 - Controller layer execute
+2020-01-26 21:28:13 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:28:13 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:13 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:28:21 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:21 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:21 INFO  ChangeTransport:22 - Controller layer execute
+2020-01-26 21:28:21 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:28:21 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:21 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:28:36 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:36 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:36 INFO  ChangeFood:22 - Controller layer execute
+2020-01-26 21:28:36 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:28:36 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:36 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:28:43 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:43 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:43 INFO  LogOut:15 - Controller layer execute
+2020-01-26 21:28:47 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:47 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:47 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:28:47 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:28:47 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:47 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:28:47 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:28:47 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:47 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:28:51 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:51 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:51 INFO  LogOut:15 - Controller layer execute
+2020-01-26 21:28:58 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:28:58 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:28:58 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:28:58 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:28:58 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:58 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:28:58 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:28:58 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:28:58 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:29:04 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:29:04 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:29:04 INFO  ChangeFood:22 - Controller layer execute
+2020-01-26 21:29:04 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:29:04 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:29:04 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:29:12 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:29:12 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:29:12 INFO  Wrong_request:13 - Controller layer execute
+2020-01-26 21:29:17 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:29:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:29:17 INFO  ChangeOther:22 - Controller layer execute
+2020-01-26 21:29:17 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-26 21:29:17 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:29:17 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:29:51 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:29:51 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:29:51 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-26 21:29:51 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-26 21:29:51 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:29:51 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 21:31:24 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:31:24 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:31:24 INFO  LogOut:15 - Controller layer execute
+2020-01-26 21:31:31 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:31:31 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:31:31 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-26 21:31:38 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:31:38 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:31:38 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:31:38 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:31:38 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:31:38 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:31:38 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:31:38 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:31:38 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:31:43 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:31:43 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:31:43 INFO  ChangeFood:22 - Controller layer execute
+2020-01-26 21:31:59 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:31:59 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:31:59 INFO  LogOut:15 - Controller layer execute
+2020-01-26 21:32:01 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:32:01 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:32:32 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:32:32 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:32:32 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:32:32 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:32:32 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:32:32 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:32:32 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:32:32 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:32:32 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:32:34 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:32:34 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:33:15 INFO  Runner:16 - View layer main
+2020-01-26 21:33:18 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:33:18 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:33:26 INFO  Runner:16 - View layer main
+2020-01-26 21:33:34 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:33:35 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:34:05 INFO  Runner:16 - View layer main
+2020-01-26 21:34:10 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:34:11 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:46:46 INFO  Runner:16 - View layer main
+2020-01-26 21:46:48 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:46:49 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:47:34 INFO  Runner:16 - View layer main
+2020-01-26 21:47:36 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:47:36 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:01 INFO  Runner:16 - View layer main
+2020-01-26 21:48:07 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:48:07 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:07 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:48:15 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:48:15 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:15 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:48:20 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:48:20 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:20 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:48:28 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:48:28 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:28 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:48:33 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:48:33 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:33 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:48:40 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:48:40 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:40 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:48:55 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:48:55 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:48:55 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:49:18 INFO  Runner:16 - View layer main
+2020-01-26 21:49:31 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:49:31 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:49:34 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:51:23 INFO  Runner:16 - View layer main
+2020-01-26 21:51:35 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:51:35 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:51:35 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:51:46 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:51:46 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:51:47 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:52:11 INFO  AccountServiceImpl:42 - Service layer registration
+2020-01-26 21:52:15 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:52:15 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:52:17 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:52:32 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:52:34 INFO  FileAccountDAO:24 - DAO layer add
+2020-01-26 21:54:10 INFO  Runner:16 - View layer main
+2020-01-26 21:54:17 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:54:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:54:17 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:54:48 INFO  Runner:16 - View layer main
+2020-01-26 21:54:52 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:54:52 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:54:53 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:55:46 INFO  Runner:16 - View layer main
+2020-01-26 21:55:53 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:55:53 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:55:53 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:55:53 INFO  AccountServiceImpl:42 - Service layer registration
+2020-01-26 21:55:53 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:55:53 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:55:53 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:55:53 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:55:53 INFO  FileAccountDAO:24 - DAO layer add
+2020-01-26 21:55:56 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:55:56 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:55:56 INFO  LogOut:15 - Controller layer execute
+2020-01-26 21:56:02 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:56:02 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:56:02 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:56:02 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:56:02 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:56:02 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:56:02 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 21:56:02 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:56:02 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 21:56:08 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:56:08 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:56:08 INFO  DeleteAccount:18 - Controller layer execute
+2020-01-26 21:56:08 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:56:08 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:56:08 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:56:08 INFO  AccountServiceImpl:139 - Service layer delete
+2020-01-26 21:56:08 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:56:08 INFO  FileAccountDAO:122 - DAO layer delete
+2020-01-26 21:56:12 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:56:12 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:56:12 INFO  LogOut:15 - Controller layer execute
+2020-01-26 21:56:17 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:56:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:56:17 INFO  LogIn:19 - Controller layer execute
+2020-01-26 21:56:17 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 21:56:17 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 21:56:17 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 21:56:47 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:56:47 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 21:56:47 INFO  Registration:22 - Controller layer execute
+2020-01-26 21:56:52 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 21:56:52 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:04:24 INFO  Runner:16 - View layer main
+2020-01-26 22:05:35 INFO  Runner:16 - View layer main
+2020-01-26 22:05:39 INFO  Runner:16 - View layer main
+2020-01-26 22:06:01 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:06:01 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:06:01 INFO  Registration:22 - Controller layer execute
+2020-01-26 22:06:17 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:06:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:06:17 INFO  Registration:22 - Controller layer execute
+2020-01-26 22:06:24 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:06:24 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:06:24 INFO  Wrong_request:13 - Controller layer execute
+2020-01-26 22:06:47 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:06:47 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:06:47 INFO  Registration:22 - Controller layer execute
+2020-01-26 22:07:01 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:07:01 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:07:01 INFO  Registration:22 - Controller layer execute
+2020-01-26 22:07:01 INFO  AccountServiceImpl:42 - Service layer registration
+2020-01-26 22:07:01 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 22:07:01 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:07:01 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 22:07:01 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:07:01 INFO  FileAccountDAO:24 - DAO layer add
+2020-01-26 22:07:06 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:07:06 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:07:06 INFO  LogOut:15 - Controller layer execute
+2020-01-26 22:08:17 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:08:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:08:17 INFO  LogIn:19 - Controller layer execute
+2020-01-26 22:08:17 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 22:08:17 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:08:17 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 22:08:17 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 22:08:17 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:08:17 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 22:08:23 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:08:23 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:08:23 INFO  GetAdmin:18 - Controller layer execute
+2020-01-26 22:08:23 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 22:08:23 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:08:23 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 22:08:23 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 22:08:23 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:08:23 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 22:13:24 INFO  Runner:16 - View layer main
+2020-01-26 22:13:31 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:13:31 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:13:31 INFO  Wrong_request:13 - Controller layer execute
+2020-01-26 22:13:39 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:13:39 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:13:39 INFO  LogIn:19 - Controller layer execute
+2020-01-26 22:13:39 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 22:13:39 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:13:39 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 22:13:39 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-26 22:13:39 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:13:39 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-26 22:13:56 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:13:56 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-26 22:13:56 INFO  GetAdmin:18 - Controller layer execute
+2020-01-26 22:13:56 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-26 22:13:56 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:13:56 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-26 22:13:56 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-26 22:13:56 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:13:56 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-26 22:13:56 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-26 22:13:56 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-26 22:13:56 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-26 22:14:33 INFO  Controller:19 - Controller layer executeTask
+2020-01-26 22:14:33 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 00:08:02 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 00:08:38 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:38:15 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:42:55 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:42:55 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:42:55 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:42:55 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:43:12 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:43:34 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:43:34 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:43:34 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:44:36 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:44:36 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:44:36 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:44:36 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:44:42 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:44:42 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:44:42 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:44:42 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:44:42 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:44:42 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:44:42 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:44:42 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:45:46 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:46:08 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:46:20 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:46:21 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:46:22 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:49:08 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:49:08 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:49:08 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:49:08 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:49:18 INFO  Runner:16 - View layer main
+2020-01-27 01:49:23 INFO  Controller:19 - Controller layer executeTask
+2020-01-27 01:49:23 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 01:49:23 INFO  LogIn:19 - Controller layer execute
+2020-01-27 01:49:23 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 01:49:23 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:49:23 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 01:49:32 INFO  Controller:19 - Controller layer executeTask
+2020-01-27 01:49:32 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 01:49:32 INFO  Registration:22 - Controller layer execute
+2020-01-27 01:49:32 INFO  AccountServiceImpl:42 - Service layer registration
+2020-01-27 01:49:32 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 01:49:32 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:49:32 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 01:49:32 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:49:32 INFO  FileAccountDAO:24 - DAO layer add
+2020-01-27 01:49:36 INFO  Controller:19 - Controller layer executeTask
+2020-01-27 01:49:36 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 01:49:36 INFO  LogOut:15 - Controller layer execute
+2020-01-27 01:49:41 INFO  Controller:19 - Controller layer executeTask
+2020-01-27 01:49:41 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 01:49:41 INFO  Registration:22 - Controller layer execute
+2020-01-27 01:49:41 INFO  AccountServiceImpl:42 - Service layer registration
+2020-01-27 01:49:41 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 01:49:41 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:49:41 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 01:49:41 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:49:41 INFO  FileAccountDAO:24 - DAO layer add
+2020-01-27 01:49:43 INFO  Controller:19 - Controller layer executeTask
+2020-01-27 01:49:43 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 01:50:09 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:50:09 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:50:09 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:50:09 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:50:24 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 01:50:24 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 01:50:24 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 01:50:24 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 01:51:34 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 03:48:40 INFO  Runner:16 - View layer main
+2020-01-27 03:48:52 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:48:52 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:48:52 INFO  Registration:22 - Controller layer execute
+2020-01-27 03:48:52 INFO  AccountServiceImpl:42 - Service layer registration
+2020-01-27 03:48:52 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:48:52 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:48:52 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:48:52 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:48:52 INFO  FileAccountDAO:24 - DAO layer add
+2020-01-27 03:48:54 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:48:54 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:48:54 INFO  LogOut:15 - Controller layer execute
+2020-01-27 03:49:00 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:49:00 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:49:00 INFO  Registration:22 - Controller layer execute
+2020-01-27 03:49:00 INFO  AccountServiceImpl:42 - Service layer registration
+2020-01-27 03:49:00 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:49:00 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:00 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:49:00 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:00 INFO  FileAccountDAO:24 - DAO layer add
+2020-01-27 03:49:17 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:49:17 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:49:17 INFO  LogOut:15 - Controller layer execute
+2020-01-27 03:49:21 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:49:21 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:49:21 INFO  LogIn:19 - Controller layer execute
+2020-01-27 03:49:21 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:49:21 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:21 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:49:21 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 03:49:21 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:21 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 03:49:25 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:49:25 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:49:25 INFO  BanAccount:20 - Controller layer execute
+2020-01-27 03:49:25 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:49:25 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:25 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:49:25 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-27 03:49:25 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:25 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-27 03:49:25 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-27 03:49:25 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:25 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 03:49:30 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:49:30 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:49:30 INFO  BanAccount:20 - Controller layer execute
+2020-01-27 03:49:30 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:49:30 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:30 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:49:30 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-27 03:49:30 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:30 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-27 03:49:30 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-27 03:49:30 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:49:30 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 03:49:54 INFO  Runner:16 - View layer main
+2020-01-27 03:50:00 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:50:01 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:50:01 INFO  LogIn:19 - Controller layer execute
+2020-01-27 03:50:01 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:50:01 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:50:01 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:50:01 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 03:50:01 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:50:01 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 03:50:28 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:50:28 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:50:30 INFO  BanAccount:20 - Controller layer execute
+2020-01-27 03:50:53 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:50:53 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:50:53 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:51:05 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-27 03:51:05 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:51:05 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-27 03:51:05 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-27 03:51:05 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:51:05 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 03:51:25 INFO  Runner:16 - View layer main
+2020-01-27 03:51:29 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:51:29 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:51:29 INFO  LogIn:19 - Controller layer execute
+2020-01-27 03:51:29 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:51:29 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:51:29 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:51:29 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 03:51:29 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:51:29 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 03:51:33 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:51:33 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 03:51:33 INFO  BanAccount:20 - Controller layer execute
+2020-01-27 03:51:33 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 03:51:33 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:51:33 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 03:51:33 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-27 03:51:33 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:51:33 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-27 03:51:33 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-27 03:51:33 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 03:51:33 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 03:51:39 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 03:51:39 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:25:31 INFO  Runner:16 - View layer main
+2020-01-27 21:25:37 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:25:37 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:25:37 INFO  LogIn:19 - Controller layer execute
+2020-01-27 21:25:37 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 21:25:37 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:25:37 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 21:25:37 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 21:25:37 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:25:37 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 21:25:41 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:25:42 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:25:42 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:25:42 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 21:25:42 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:25:42 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 21:25:45 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:25:45 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:25:45 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:25:45 ERROR Controller:33 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumericFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:38)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:31)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	... 2 more
+2020-01-27 21:26:26 INFO  Runner:16 - View layer main
+2020-01-27 21:26:35 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:26:35 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:26:35 INFO  LogIn:19 - Controller layer execute
+2020-01-27 21:26:35 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 21:26:35 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:26:35 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 21:26:35 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 21:26:35 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:26:35 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 21:26:50 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:26:51 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:26:53 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:27:14 ERROR Controller:33 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumericFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:38)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:31)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "qwe"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	... 2 more
+2020-01-27 21:28:27 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:28:27 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:29:59 INFO  Runner:16 - View layer main
+2020-01-27 21:30:04 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:04 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:04 INFO  Wrong_request:13 - Controller layer execute
+2020-01-27 21:30:09 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:09 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:09 INFO  LogIn:19 - Controller layer execute
+2020-01-27 21:30:09 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 21:30:09 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:30:09 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 21:30:09 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 21:30:09 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:30:09 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 21:30:14 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:14 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:14 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:30:14 ERROR Controller:33 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumericFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:38)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:31)
+	at main.by.javatr.view.Runner.main(Runner.java:75)
+Caused by: java.lang.NumberFormatException: For input string: "qw"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	... 2 more
+2020-01-27 21:30:23 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:23 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:23 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:30:24 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:24 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:24 INFO  Wrong_request:13 - Controller layer execute
+2020-01-27 21:30:30 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:30 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:30 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:30:30 INFO  AccountServiceImpl:75 - Service layer changeBalance
+2020-01-27 21:30:30 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:30:30 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 21:30:34 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:34 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:34 INFO  ChangeOther:22 - Controller layer execute
+2020-01-27 21:30:34 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-27 21:30:34 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:30:34 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 21:30:40 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:40 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:40 INFO  ChangeFood:22 - Controller layer execute
+2020-01-27 21:30:40 INFO  AccountServiceImpl:89 - Service layer changeCategory
+2020-01-27 21:30:40 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:30:40 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 21:30:43 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:43 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:43 INFO  Wrong_request:13 - Controller layer execute
+2020-01-27 21:30:48 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:30:48 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:30:48 INFO  Wrong_request:13 - Controller layer execute
+2020-01-27 21:34:39 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:34:39 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:34:39 INFO  BanAccount:20 - Controller layer execute
+2020-01-27 21:34:39 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 21:34:39 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:34:39 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 21:34:39 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-27 21:34:39 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:34:39 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-27 21:34:39 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-27 21:34:39 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:34:39 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 21:34:44 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:34:44 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:34:44 INFO  BanAccount:20 - Controller layer execute
+2020-01-27 21:34:44 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 21:34:44 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:34:44 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 21:34:44 INFO  AccountServiceImpl:152 - Service layer delete
+2020-01-27 21:34:44 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:34:44 INFO  FileAccountDAO:151 - DAO layer get
+2020-01-27 21:34:44 INFO  AccountServiceImpl:125 - Service layer update
+2020-01-27 21:34:44 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:34:44 INFO  FileAccountDAO:36 - DAO layer update
+2020-01-27 21:34:47 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:34:47 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:34:47 INFO  LogOut:15 - Controller layer execute
+2020-01-27 21:34:50 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:34:50 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:51:42 INFO  Runner:16 - View layer main
+2020-01-27 21:51:47 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:51:47 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:51:47 INFO  LogIn:19 - Controller layer execute
+2020-01-27 21:51:47 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 21:51:47 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:51:47 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 21:51:47 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 21:51:47 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:51:47 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 21:51:54 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:51:54 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:51:54 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:51:54 ERROR Controller:33 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumericFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:38)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:31)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "qwe"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	... 2 more
+2020-01-27 21:53:07 INFO  Runner:16 - View layer main
+2020-01-27 21:53:12 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:53:12 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:53:12 INFO  LogIn:19 - Controller layer execute
+2020-01-27 21:53:12 INFO  AccountServiceImpl:27 - Service layer checkRegistration
+2020-01-27 21:53:12 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:53:12 INFO  FileAccountDAO:99 - DAO layer find by login
+2020-01-27 21:53:12 INFO  AccountServiceImpl:62 - Service layer logIn
+2020-01-27 21:53:12 INFO  FileDAOFactory:14 - DAO layer getAccountDAO
+2020-01-27 21:53:12 INFO  FileAccountDAO:66 - DAO layer find
+2020-01-27 21:53:16 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:53:16 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:53:16 INFO  ChangeBalance:20 - Controller layer execute
+2020-01-27 21:53:16 ERROR Controller:33 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumericFormatException
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:38)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:31)
+	at main.by.javatr.view.Runner.main(Runner.java:62)
+Caused by: java.lang.NumberFormatException: For input string: "qwe"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at main.by.javatr.controller.command.impl.ChangeBalance.execute(ChangeBalance.java:36)
+	... 2 more
+2020-01-27 21:53:30 INFO  Controller:18 - Controller layer executeTask
+2020-01-27 21:53:30 INFO  CommandProvider:43 - Controller layer getCommand
+2020-01-27 21:53:30 INFO  ChangeTransport:22 - Controller layer execute
+2020-01-27 21:53:30 ERROR Controller:33 - ControllerException
+main.by.javatr.controller.controllerException.ControllerException: NumericFormatException
+	at main.by.javatr.controller.command.impl.ChangeTransport.execute(ChangeTransport.java:37)
+	at main.by.javatr.controller.impl.Controller.executeTask(Controller.java:31)
+	at main.by.javatr.view.Runner.main(Runner.java:62)

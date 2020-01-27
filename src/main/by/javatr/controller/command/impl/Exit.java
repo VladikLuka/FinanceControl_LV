@@ -10,8 +10,7 @@ public class Exit implements Command {
 
         String[] str = request.split(" ");
 
-
-        if(request.length() != 1){
+        if(str.length != 1){
             return "wrong request";
         }
 

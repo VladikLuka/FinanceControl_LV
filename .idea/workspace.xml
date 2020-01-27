@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DB.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DB.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/bean/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/bean/Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/bean/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/bean/Session.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeBalance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeBalance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeCurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeCurrency.class" afterDir="false" />
@@ -12,28 +13,50 @@
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeFood.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeOther.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeTransport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearAll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ClearCategory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/Exit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/Exit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/LogIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/Registration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/LogOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/LogOut.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/BanAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/BanAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/bean/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/AccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/dao/impl/FileAccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/view/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/main/by/javatr/view/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeCurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeCurrency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeEntertainment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeEntertainment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeFood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeOther.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeOther.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeTransport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/ChangeTransport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/production/FinalProjectLukiyanets_V/main/by/javatr/controller/impl/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/test/by/javatr/ChangeBalanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProjectLukiyanets_V/test/by/javatr/ChangeBalanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/bean/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/bean/Session.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeBalance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeCurrency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeEntertainment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeEntertainment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeFood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeOther.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ChangeTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearAll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/ClearCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/LogOut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/Registration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/BanAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/BanAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/DeleteAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/GetAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/controller/impl/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/dao/impl/FileAccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/dao/impl/FileAccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/by/javatr/view/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/by/javatr/view/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/by/javatr/ChangeBalanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/by/javatr/ChangeBalanceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +145,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChangeBalanceTest.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectLukiyanets_V" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.by.javatr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.by.javatr" />
+      <option name="MAIN_CLASS_NAME" value="test.by.javatr.ChangeBalanceTest" />
+      <option name="METHOD_NAME" value="execute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangeBalanceTest.executeWithoutLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalProjectLukiyanets_V" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.by.javatr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.by.javatr" />
+      <option name="MAIN_CLASS_NAME" value="test.by.javatr.ChangeBalanceTest" />
+      <option name="METHOD_NAME" value="executeWithoutLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test.by.javatr in FinalProjectLukiyanets_V" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="FinalProjectLukiyanets_V" />
       <extension name="coverage">
@@ -143,6 +198,8 @@
       <list>
         <item itemvalue="Application.Runner" />
         <item itemvalue="JUnit.ChangeBalanceTest" />
+        <item itemvalue="JUnit.ChangeBalanceTest.executeWithoutLogin" />
+        <item itemvalue="JUnit.ChangeBalanceTest.execute" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +238,9 @@
       <workItem from="1579709806650" duration="12530000" />
       <workItem from="1579728980002" duration="20787000" />
       <workItem from="1579976721555" duration="3025000" />
-      <workItem from="1580032183633" duration="7316000" />
+      <workItem from="1580032183633" duration="18865000" />
+      <workItem from="1580080910554" duration="5212000" />
+      <workItem from="1580126705427" duration="7773000" />
     </task>
     <servers />
   </component>
@@ -193,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1577470846825" />
-    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579726230669">
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1580059468005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579726230669" />
+    <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580059468005" />
     <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1579471845537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,42 +272,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="557" y="150" key="#test.by.javatr_in_FinalProjectLukiyanets_V/0.0.1920.1040@0.0.1920.1040" timestamp="1579471743596" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1580037436568">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1580149900066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580037436568" />
-    <state width="1877" height="379" key="GridCell.Tab.0.bottom" timestamp="1579982935209">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580149900066" />
+    <state width="1877" height="379" key="GridCell.Tab.0.bottom" timestamp="1580151187041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579982935209" />
-    <state width="1877" height="379" key="GridCell.Tab.0.center" timestamp="1579982935209">
+    <state width="1877" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580151187041" />
+    <state width="1877" height="379" key="GridCell.Tab.0.center" timestamp="1580151187039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579982935209" />
-    <state width="1877" height="379" key="GridCell.Tab.0.left" timestamp="1579982935209">
+    <state width="1877" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580151187039" />
+    <state width="1877" height="379" key="GridCell.Tab.0.left" timestamp="1580151187038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579982935209" />
-    <state width="1877" height="379" key="GridCell.Tab.0.right" timestamp="1579982935209">
+    <state width="1877" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580151187038" />
+    <state width="1877" height="379" key="GridCell.Tab.0.right" timestamp="1580151187040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579982935209" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579825415566">
+    <state width="1877" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580151187040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580149799138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579825415566" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579825415566">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580149799138" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580149799137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579825415566" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579825415565">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580149799137" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580149799137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579825415565" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579825415566">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580149799137" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580149799138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579825415566" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580149799138" />
     <state x="466" y="91" key="SettingsEditor" timestamp="1579801664748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,10 +316,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1579455122683" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1580034232790">
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1580126723347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580034232790" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580126723347" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579708408499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,6 +355,27 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/by/javatr/ChangeBalanceTest.java</url>
+          <line>28</line>
+          <properties class="test.by.javatr.ChangeBalanceTest" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/by/javatr/controller/command/impl/adminCommand/BanAccount.java</url>
+          <line>17</line>
+          <properties class="main.by.javatr.controller.command.impl.adminCommand.BanAccount" method="execute">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/by/javatr/ChangeBalanceTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

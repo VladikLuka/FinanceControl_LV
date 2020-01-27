@@ -17,9 +17,10 @@ public class DeleteAccount implements Command {
 
         log.info("Controller layer execute");
 
-        if(Session.checkAccount() == null) return "wrong request";
-        Account account = Session.getAccount();
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
 
+        if(!session.isLogin()) return "wrong request";
 
         if(account.isAdmin()){
 
@@ -37,13 +38,13 @@ public class DeleteAccount implements Command {
             try {
                 if (service.checkRegistration(account)){
                     service.delete(account1);
-                    return account1.getLogin() + " Deleted";
+                    return new String(account1.getLogin() + " Deleted");
                 }
             } catch (ServiceException e) {
                 e.printStackTrace();
             }
         }
 
-        return "failed";
+        return new String("failed");
     }
 }

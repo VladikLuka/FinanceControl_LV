@@ -3,7 +3,6 @@ package main.by.javatr.controller.command.impl.adminCommand;
 import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
-import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
@@ -18,9 +17,11 @@ public class GetAdmin implements Command {
 
         log.info("Controller layer execute");
 
-        if(Session.checkAccount() == null) return "wrong request";
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
 
-        Account account = Session.getAccount();
+
+        if(!session.isLogin()) return "wrong request";
 
         if(account.isAdmin()){
 
@@ -37,11 +38,11 @@ public class GetAdmin implements Command {
 
 
             try {
-                if (service.checkRegistration(account)){
-                    account1 = service.logIn(account1);
+                if (service.checkRegistration(account1)){
+                    service.getAccountByLogin(account1);
                     account1.setAdmin(true);
                     service.update(account1);
-                    return account1.getLogin() + " become a admin";
+                    return new String(account1.getLogin() + " become an admin");
                 }
             } catch (ServiceException e) {
                 e.printStackTrace();
@@ -49,6 +50,6 @@ public class GetAdmin implements Command {
 
 
         }
-            return "failed";
+            return new String("failed");
     }
 }

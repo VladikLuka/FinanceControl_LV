@@ -23,7 +23,7 @@ public class Runner {
 
         while (true) {
 
-            if(Session.checkAccount() == null){
+            if(!session.isLogin()){
 
                 System.out.println("LogIn or Registration");
 
@@ -33,12 +33,12 @@ public class Runner {
                 try {
                     response = contr.executeTask(request);
                 } catch (ControllerException e) {
-                    System.out.println("ControllerException");
+                    System.out.println("wrong request");
                 }
 
                 System.out.println(response);
 
-            }else if(Session.getAccount().isBan()){
+            }else if(session.getAccount().isBan()){
                 System.out.println("You are banned\nLogout\nexit");
                 scanner = new Scanner(System.in);
                 request = scanner.nextLine();
@@ -46,13 +46,13 @@ public class Runner {
                 try {
                     response = contr.executeTask(request);
                 } catch (ControllerException e) {
-                    System.out.println("ControllerException");
+                    System.out.println("wrong request");
                 }
                 System.out.println(response);
             }
 
             else {
-                if (!Session.checkAccount().isAdmin()) {
+                if (!session.getAccount().isAdmin()) {
                     System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nLogout\nexit");
 
                     scanner = new Scanner(System.in);
@@ -61,7 +61,7 @@ public class Runner {
                     try {
                         response = contr.executeTask(request);
                     } catch (ControllerException e) {
-                        System.out.println("ControllerException");
+                        System.out.println("wrong request");
                     }
                     System.out.println(response);
                 }
@@ -74,7 +74,7 @@ public class Runner {
                     try {
                         response = contr.executeTask(request);
                     } catch (ControllerException e) {
-                        System.out.println("ControllerException");
+                        System.out.println("wrong request");
                     }
                     System.out.println(response);
                 }

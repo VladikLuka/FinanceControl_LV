@@ -4,7 +4,6 @@ import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
-import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
@@ -22,9 +21,10 @@ public class ChangeCurrency implements Command {
 
         if(str.length != 2) return "wrong request";
 
-        if(Session.checkAccount() == null) return "wrong request";
+        Session session = Session.getInstance();
+        Account account = session.getAccount();
 
-        Account account = Session.getAccount();
+        if(!session.isLogin()) return "wrong request";
 
         if(!account.isBan()) {
 
@@ -41,7 +41,7 @@ public class ChangeCurrency implements Command {
             } catch (ServiceException e) {
                 throw new ControllerException("Service Exception", e);
             }
-            return "Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur();
+            return new String("Balance " + account.getBalance() + account.getCurrentCur() + " Expenses " + account.getExpenses() + account.getCurrentCur() + " Food " + account.getFood() + account.getCurrentCur() + " Transport " + account.getTransport() + account.getCurrentCur() + " Entertainment " + account.getEntertainment() + account.getCurrentCur() + " Other " + account.getOther() + account.getCurrentCur());
 
         }
         return "wrong request";

@@ -58,18 +58,16 @@ public class AccountServiceImpl implements AccountService {
     }
 
     @Override
-    public Account logIn(Account account) throws ServiceException {
+    public boolean logIn(Account account) throws ServiceException {
         log.info("Service layer logIn");
 
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
 
         try {
-            account = fileAccountDAO.find(account);
+            return fileAccountDAO.find(account);
         } catch (DAOException e) {
             throw new ServiceException("DAOException", e);
         }
-
-        return account;
     }
 
     @Override

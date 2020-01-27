@@ -3,7 +3,6 @@ package main.by.javatr.controller.impl;
 import main.by.javatr.controller.ControllerInterface;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.controllerException.ControllerException;
-import main.by.javatr.service.ServiceException.ServiceException;
 
 import org.apache.log4j.Logger;
 
@@ -15,7 +14,7 @@ public final class Controller implements ControllerInterface {
 
     private static Logger log = Logger.getLogger(Controller.class.getName());
 
-    public String executeTask(String request) {
+    public String executeTask(String request) throws ControllerException {
         log.info("Controller layer executeTask");
 
         String[] commandName;
@@ -32,7 +31,7 @@ public final class Controller implements ControllerInterface {
             response = executeCommand.execute(request);
         } catch (ControllerException e) {
             log.error("ControllerException",e);
-            response = "wrong request";
+            throw new ControllerException("Controller Exception", e);
         }
 
 
