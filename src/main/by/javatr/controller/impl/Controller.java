@@ -20,7 +20,7 @@ public final class Controller implements ControllerInterface {
         String[] commandName;
         Command executeCommand;
 
-        commandName = request.split(" ");
+        commandName = request.trim().split(" +");
         executeCommand = provider.getCommand(commandName[0]);
 
 

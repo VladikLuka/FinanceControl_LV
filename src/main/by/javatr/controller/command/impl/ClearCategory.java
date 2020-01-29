@@ -16,7 +16,7 @@ public class ClearCategory implements Command {
 
         request = request.toUpperCase();
 
-        String[] str = request.split(" ");
+        String[] str = request.trim().split(" +");
 
         if(str.length != 2) return "wrong request";
 

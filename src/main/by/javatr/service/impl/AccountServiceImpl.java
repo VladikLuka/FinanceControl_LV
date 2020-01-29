@@ -10,6 +10,8 @@ import main.by.javatr.service.AccountService;
 import main.by.javatr.service.ServiceException.ServiceException;
 import org.apache.log4j.Logger;
 
+import java.util.List;
+
 
 public class AccountServiceImpl implements AccountService {
 
@@ -158,5 +160,18 @@ public class AccountServiceImpl implements AccountService {
             throw new ServiceException("DAOException", e);
         }
         return account;
+    }
+
+    @Override
+    public List<Account> getAll() throws ServiceException {
+        FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
+        List<Account> list = null;
+        try {
+            list = fileAccountDAO.getAll();
+        }catch (DAOException e) {
+            e.printStackTrace();
+        }
+
+        return list;
     }
 }

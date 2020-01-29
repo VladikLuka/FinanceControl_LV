@@ -14,7 +14,7 @@ public class LogOut implements Command {
     public String execute(String request){
         log.info("Controller layer execute");
 
-        String[] str = request.split(" ");
+        String[] str = request.trim().split(" +");
 
         Session session = Session.getInstance();
         Account account = session.getAccount();

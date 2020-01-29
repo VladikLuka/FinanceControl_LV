@@ -6,6 +6,7 @@ import main.by.javatr.controller.command.impl.*;
 import main.by.javatr.controller.command.impl.adminCommand.BanAccount;
 import main.by.javatr.controller.command.impl.adminCommand.DeleteAccount;
 import main.by.javatr.controller.command.impl.adminCommand.GetAdmin;
+import main.by.javatr.controller.command.impl.adminCommand.PrintAllUsers;
 import org.apache.log4j.Logger;
 
 import java.util.HashMap;
@@ -35,6 +36,7 @@ public final class CommandProvider {
         repository.put(CommandName.DELETE_ACCOUNT, new DeleteAccount());
         repository.put(CommandName.CHANGE_CURRENCY, new ChangeCurrency());
         repository.put(CommandName.EXIT, new Exit());
+        repository.put(CommandName.PRINT_ALL_USERS, new PrintAllUsers());
 
     }
 

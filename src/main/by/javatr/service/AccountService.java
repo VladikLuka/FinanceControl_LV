@@ -5,6 +5,7 @@ import main.by.javatr.dao.DAOException.DAOException;
 import main.by.javatr.service.ServiceException.ServiceException;
 
 import java.io.IOException;
+import java.util.List;
 
 public interface AccountService {
 
@@ -16,5 +17,6 @@ public interface AccountService {
     Account update(Account account) throws ServiceException;
     boolean delete(Account account) throws ServiceException;
     Account getAccountByLogin(Account account) throws ServiceException;
+    List<Account> getAll() throws ServiceException;
 
 }

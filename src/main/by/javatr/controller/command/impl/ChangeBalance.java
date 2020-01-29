@@ -20,7 +20,7 @@ public class ChangeBalance implements Command {
         log.info("Controller layer execute");
 
         String response;
-        String[] str = request.split(" ");
+        String[] str = request.trim().split(" +");
 
         if(str.length != 2) return "wrong request";
 

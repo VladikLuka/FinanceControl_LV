@@ -19,7 +19,8 @@ public class LogIn implements Command {
         log.info("Controller layer execute");
 
         AccountService accountService = new AccountServiceImpl();
-        String[] str = request.split(" ");
+
+        String[] str = request.trim().split(" +");
 
         if(str.length != 3) return "wrong request";
 

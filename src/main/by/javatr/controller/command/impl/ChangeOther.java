@@ -21,7 +21,7 @@ public class ChangeOther implements Command {
     public String execute(String request) throws ControllerException {
         log.info("Controller layer execute");
 
-        String[] str = request.split(" ");
+        String[] str = request.trim().split(" +");
 
         if(str.length != 2) return "wrong request";
 

@@ -18,5 +18,6 @@ public enum CommandName {
     DELETE_ACCOUNT,
     CHANGE_CURRENCY,
     EXIT,
+    PRINT_ALL_USERS,
     GET_ADMIN;
 }

@@ -14,7 +14,7 @@ public class Runner {
 
     public static void main(String[] args) {
         log.info("View layer main");
-        Scanner scanner;
+        Scanner scanner = new Scanner(System.in);
         String request;
         ControllerInterface contr = new Controller();
         String response = null;
@@ -27,7 +27,6 @@ public class Runner {
 
                 System.out.println("LogIn or Registration");
 
-                scanner = new Scanner(System.in);
                 request = scanner.nextLine();
 
                 try {
@@ -40,7 +39,7 @@ public class Runner {
 
             }else if(session.getAccount().isBan()){
                 System.out.println("You are banned\nLogout\nexit");
-                scanner = new Scanner(System.in);
+
                 request = scanner.nextLine();
 
                 try {
@@ -55,7 +54,6 @@ public class Runner {
                 if (!session.getAccount().isAdmin()) {
                     System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nLogout\nexit");
 
-                    scanner = new Scanner(System.in);
                     request = scanner.nextLine();
 
                     try {
@@ -66,9 +64,8 @@ public class Runner {
                     System.out.println(response);
                 }
                 else {
-                    System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nget_Admin\nban\ndelete_account\nLogout\nexit");
+                    System.out.println("change_Balance\nchange_Transport\nchange_Food\nchange_Entertainment\nchange_Other\nchange_currency\nclear_All\nclear_Category\nPrint_All_Users\nget_Admin\nban\ndelete_account\nLogout\nexit");
 
-                    scanner = new Scanner(System.in);
                     request = scanner.nextLine();
 
                     try {

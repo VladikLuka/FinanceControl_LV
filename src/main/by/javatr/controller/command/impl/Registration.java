@@ -21,22 +21,22 @@ public class Registration implements Command {
     public String execute(String request) throws ControllerException{
         log.info("Controller layer execute");
 
-        String[] arrRequest = request.split(" ");
+        String[] str = request.trim().split(" +");
 
-        if(arrRequest.length != 3) return "wrong request";
+        if(str.length != 3) return "wrong request";
 
 
         Session session = Session.getInstance();
         Account account = session.getAccount();
 
-        if(arrRequest[1].matches("[^0-9_ /w][0-9a-zA-Z]{2,}"))
-            account.setLogin(arrRequest[1]);
+        if(str[1].matches("[^0-9_ /w][0-9a-zA-Z]{2,}"))
+            account.setLogin(str[1]);
         else{
             session.delAccount();
             return "failed";
         }
-        if(arrRequest[2].matches("[0-9a-zA-Z!@#$%^&*]{6,}"))
-            account.setPassword(arrRequest[2]);
+        if(str[2].matches("[0-9a-zA-Z!@#$%^&*]{6,}"))
+            account.setPassword(str[2]);
         else{
             session.delAccount();
             return "failed";

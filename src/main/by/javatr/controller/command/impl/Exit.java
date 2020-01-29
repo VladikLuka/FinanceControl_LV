@@ -8,9 +8,7 @@ public class Exit implements Command {
     @Override
     public String execute(String request){
 
-        String[] str = request.split(" ");
-
-        if(str.length != 1){
+        if(request.trim().length() != 4){
             return "wrong request";
         }
 
