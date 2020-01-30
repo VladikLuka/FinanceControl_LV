@@ -1,14 +1,10 @@
 package test.by.javatr;
 
-import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.command.impl.ChangeBalance;
-import main.by.javatr.controller.controllerException.ControllerException;
-import main.by.javatr.service.ServiceException.ServiceException;
+import main.by.javatr.controller.exception.ControllerException;
 import org.junit.Test;
-
-import java.io.Serializable;
 
 import static org.junit.Assert.*;
 

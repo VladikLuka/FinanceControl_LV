@@ -1,7 +1,7 @@
 package main.by.javatr.view;
 
 import main.by.javatr.bean.Session;
-import main.by.javatr.controller.controllerException.ControllerException;
+import main.by.javatr.controller.exception.ControllerException;
 import main.by.javatr.controller.impl.Controller;
 import main.by.javatr.controller.ControllerInterface;
 

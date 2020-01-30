@@ -16,6 +16,7 @@ public class Account implements Serializable {
     private double other;
     private boolean admin;
     private boolean ban;
+    private int id;
     private char currentCur = '$';
 
 
@@ -141,6 +142,13 @@ public class Account implements Serializable {
         this.currentCur = currentCur;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @Override
     public int hashCode() {

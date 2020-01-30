@@ -19,5 +19,7 @@ public enum CommandName {
     CHANGE_CURRENCY,
     EXIT,
     PRINT_ALL_USERS,
+    GET_ACC,
+    GET_ACCOUNT_BY_ID,
     GET_ADMIN;
 }

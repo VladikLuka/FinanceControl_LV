@@ -1,4 +1,4 @@
-package main.by.javatr.dao.DAOFactory;
+package main.by.javatr.dao.factory;
 
 import main.by.javatr.dao.AccountDAO;
 import main.by.javatr.dao.impl.FileAccountDAO;

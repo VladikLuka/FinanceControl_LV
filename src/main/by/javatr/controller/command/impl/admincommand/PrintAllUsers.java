@@ -1,15 +1,13 @@
-package main.by.javatr.controller.command.impl.adminCommand;
+package main.by.javatr.controller.command.impl.admincommand;
 
 import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
-import main.by.javatr.controller.controllerException.ControllerException;
+import main.by.javatr.controller.exception.ControllerException;
 import main.by.javatr.service.AccountService;
-import main.by.javatr.service.ServiceException.ServiceException;
+import main.by.javatr.service.exception.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class PrintAllUsers implements Command {
@@ -36,7 +34,8 @@ public class PrintAllUsers implements Command {
                     for (Account a:
                          list) {
 
-                        s.append(a.getLogin()).append(" ")
+                        s.append(a.getId()).append(" ")
+                                .append(a.getLogin()).append(" ")
                                 .append(a.getPassword())
                                 .append(" Balance ").append(a.getBalance()).append(a.getCurrentCur()).append(" ")
                                 .append(" Expenses ").append(a.getExpenses()).append(a.getCurrentCur()).append(" ")

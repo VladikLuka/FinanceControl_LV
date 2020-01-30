@@ -3,9 +3,8 @@ package main.by.javatr.controller.command.impl;
 import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
-import main.by.javatr.controller.controllerException.ControllerException;
-import main.by.javatr.controller.impl.Controller;
-import main.by.javatr.service.ServiceException.ServiceException;
+import main.by.javatr.controller.exception.ControllerException;
+import main.by.javatr.controller.validation.ControllerValidation;
 import org.apache.log4j.Logger;
 
 public class ClearAll implements Command {
@@ -18,14 +17,10 @@ public class ClearAll implements Command {
 
         String[] str = request.trim().split(" +");
 
-        if(str.length != 1) return "wrong request";
+        if(!ControllerValidation.isBan() && ControllerValidation.isLogin() && str.length == 1) {
 
-        Session session = Session.getInstance();
-        Account account = session.getAccount();
-
-        if(!session.isLogin()) return "wrong request";
-
-        if(!account.isBan()) {
+            Session session = Session.getInstance();
+            Account account = session.getAccount();
 
             account.setOther(0);
             account.setFood(0);

@@ -1,25 +1,24 @@
-package main.by.javatr.controller.command.impl.adminCommand;
+package main.by.javatr.controller.command.impl.admincommand;
 
 import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.service.AccountService;
-import main.by.javatr.service.ServiceException.ServiceException;
+import main.by.javatr.service.exception.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
 import org.apache.log4j.Logger;
 
-public class GetAdmin implements Command {
+public class DeleteAccount implements Command {
 
-    private static Logger log = Logger.getLogger(GetAdmin.class.getName());
+    private static Logger log = Logger.getLogger(DeleteAccount.class.getName());
 
     @Override
-    public String execute(String request){
+    public String execute(String request) {
 
         log.info("Controller layer execute");
 
         Session session = Session.getInstance();
         Account account = session.getAccount();
-
 
         if(!session.isLogin()) return "wrong request";
 
@@ -31,25 +30,21 @@ public class GetAdmin implements Command {
                 return "wrong request";
             }
 
-            AccountService service = new AccountServiceImpl();
-
             Account account1 = new Account();
+
             account1.setLogin(str[1]);
 
-
+            AccountService service = new AccountServiceImpl();
             try {
-                if (service.checkRegistration(account1)){
-                    service.getAccountByLogin(account1);
-                    account1.setAdmin(true);
-                    service.update(account1);
-                    return new String(account1.getLogin() + " become an admin");
+                if (service.checkRegistration(account)){
+                    service.delete(account1);
+                    return new String(account1.getLogin() + " Deleted");
                 }
             } catch (ServiceException e) {
                 e.printStackTrace();
             }
-
-
         }
-            return new String("failed");
+
+        return new String("failed");
     }
 }

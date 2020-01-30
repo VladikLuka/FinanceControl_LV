@@ -3,9 +3,11 @@ package main.by.javatr.controller.command.impl;
 import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
-import main.by.javatr.controller.controllerException.ControllerException;
+import main.by.javatr.controller.command.Currency;
+import main.by.javatr.controller.exception.ControllerException;
+import main.by.javatr.controller.validation.ControllerValidation;
 import main.by.javatr.service.AccountService;
-import main.by.javatr.service.ServiceException.ServiceException;
+import main.by.javatr.service.exception.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
 import org.apache.log4j.Logger;
 
@@ -20,20 +22,17 @@ public class ChangeCurrency implements Command {
 
         String[] str = request.trim().split(" +");
 
-        if(str.length != 2) return "wrong request";
 
-        Session session = Session.getInstance();
-        Account account = session.getAccount();
+        if(!ControllerValidation.isBan() && ControllerValidation.isLogin() && str.length == 2) {
 
-        if(!session.isLogin()) return "wrong request";
+            Session session = Session.getInstance();
+            Account account = session.getAccount();
 
-        if(!account.isBan()) {
-
-            if(str[1].equals("dollar")) {
+            if(str[1].equalsIgnoreCase(String.valueOf(Currency.DOLLAR))) {
                 account.setCurrentCur('$');
-            }else if(str[1].equals("euro")){
+            }else if(str[1].equalsIgnoreCase(String.valueOf(Currency.EUR))){
                 account.setCurrentCur('€');
-            }else if(str[1].equals("rub")){
+            }else if(str[1].equalsIgnoreCase(String.valueOf(Currency.RUB))){
                 account.setCurrentCur('₽');
             }else return "wrong request";
             AccountService accountService = new AccountServiceImpl();

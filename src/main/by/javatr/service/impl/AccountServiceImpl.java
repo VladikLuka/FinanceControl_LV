@@ -1,13 +1,12 @@
 package main.by.javatr.service.impl;
 
 import main.by.javatr.bean.Account;
-import main.by.javatr.controller.impl.Controller;
-import main.by.javatr.dao.DAOException.DAOException;
-import main.by.javatr.dao.DAOFactory.DAOFactory;
-import main.by.javatr.dao.DAOFactory.FileDAOFactory;
+import main.by.javatr.dao.exception.DAOException;
+import main.by.javatr.dao.factory.DAOFactory;
+import main.by.javatr.dao.factory.FileDAOFactory;
 import main.by.javatr.dao.impl.FileAccountDAO;
 import main.by.javatr.service.AccountService;
-import main.by.javatr.service.ServiceException.ServiceException;
+import main.by.javatr.service.exception.ServiceException;
 import org.apache.log4j.Logger;
 
 import java.util.List;
@@ -104,24 +103,6 @@ public class AccountServiceImpl implements AccountService {
         return account;
     }
 
-    public String isBanned(Account account) throws ServiceException {
-        log.info("Service layer isBanned");
-
-        FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
-
-        try {
-            fileAccountDAO.get(account);
-            if(account.isBan()){
-                return "You are banned";
-            }
-
-        } catch (DAOException e) {
-            throw new ServiceException("DAOException", e);
-        }
-
-        return "";
-    }
-
     @Override
     public Account update(Account account) throws ServiceException {
         log.info("Service layer update");
@@ -151,7 +132,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public Account getAccountByLogin(Account account) throws ServiceException {
-        log.info("Service layer delete");
+        log.info("Service layer getAccountByLogin");
 
         FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
         try {
@@ -173,5 +154,17 @@ public class AccountServiceImpl implements AccountService {
         }
 
         return list;
+    }
+
+    @Override
+    public Account getAccountById(int id) throws ServiceException {
+    log.info("Service layer getAccountByID");
+        FileAccountDAO fileAccountDAO = AccountServiceImpl.getFileAccountDAO();
+
+        try {
+            return fileAccountDAO.getAccountById(id);
+        }catch (DAOException e) {
+            throw new ServiceException("DAOException", e);
+        }
     }
 }

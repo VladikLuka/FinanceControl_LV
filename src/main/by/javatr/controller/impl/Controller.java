@@ -2,7 +2,7 @@ package main.by.javatr.controller.impl;
 
 import main.by.javatr.controller.ControllerInterface;
 import main.by.javatr.controller.command.Command;
-import main.by.javatr.controller.controllerException.ControllerException;
+import main.by.javatr.controller.exception.ControllerException;
 
 import org.apache.log4j.Logger;
 

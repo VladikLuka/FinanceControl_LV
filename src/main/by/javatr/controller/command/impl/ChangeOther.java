@@ -3,15 +3,12 @@ package main.by.javatr.controller.command.impl;
 import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
-import main.by.javatr.controller.controllerException.ControllerException;
-import main.by.javatr.controller.impl.Controller;
-import main.by.javatr.dao.DAOException.DAOException;
+import main.by.javatr.controller.exception.ControllerException;
+import main.by.javatr.controller.validation.ControllerValidation;
 import main.by.javatr.service.AccountService;
-import main.by.javatr.service.ServiceException.ServiceException;
+import main.by.javatr.service.exception.ServiceException;
 import main.by.javatr.service.impl.AccountServiceImpl;
 import org.apache.log4j.Logger;
-
-import java.io.IOException;
 
 public class ChangeOther implements Command {
 
@@ -23,14 +20,10 @@ public class ChangeOther implements Command {
 
         String[] str = request.trim().split(" +");
 
-        if(str.length != 2) return "wrong request";
+        if(!ControllerValidation.isBan() && ControllerValidation.isLogin() && str.length == 2) {
 
-        Session session = Session.getInstance();
-        Account account = session.getAccount();
-
-        if(!session.isLogin()) return "wrong request";
-
-        if(!account.isBan()) {
+            Session session = Session.getInstance();
+            Account account = session.getAccount();
 
             try {
                 account.setOther(account.getOther() + Double.parseDouble(str[1]));

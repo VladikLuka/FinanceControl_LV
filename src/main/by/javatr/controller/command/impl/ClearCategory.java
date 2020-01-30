@@ -4,6 +4,7 @@ import main.by.javatr.bean.Account;
 import main.by.javatr.bean.Session;
 import main.by.javatr.controller.command.Command;
 import main.by.javatr.controller.impl.Controller;
+import main.by.javatr.controller.validation.ControllerValidation;
 import org.apache.log4j.Logger;
 
 public class ClearCategory implements Command {
@@ -18,14 +19,10 @@ public class ClearCategory implements Command {
 
         String[] str = request.trim().split(" +");
 
-        if(str.length != 2) return "wrong request";
+        if(!ControllerValidation.isBan() && ControllerValidation.isLogin() && str.length == 2) {
 
-        Session session = Session.getInstance();
-        Account account = session.getAccount();
-
-        if(!session.isLogin()) return "wrong request";
-
-        if(!account.isBan()) {
+            Session session = Session.getInstance();
+            Account account = session.getAccount();
 
             switch (str[1]) {
                 case "BALANCE":
